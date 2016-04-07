@@ -1,0 +1,55 @@
+
+== Appunti per la scrittura
+
+=== Stenografia
+
+image::figures/alfabetoCIMaA.jpg[]
+
+Studiare
+
+* Sec
+* Gl
+
+=== Comandi e dintorni
+
+==== Codice per Pandoc
+
+Blablablabla
+
+==== Help per notepad++
+
+Blablablabla
+
+==== Dettagli per creazione EPUB
+
+===== Copertina
+
+-   *Formato*: 800 X 1324 X 24 BPP
+
+===== Grafiche
+
+Per ora cominciare a provare con il formato 800 X 450
+
+===== Da studiare
+
+I fogli di stile.
+
+Da aggiungere alla parte YAML
+
+-   stylesheet
+-   editor
+
+
+==== DOS
+
+.Batch
+-------------------------------
+    "C:\Users\Maurizio\AppData\Local\Pandoc\Pandoc.exe" %1 -s --toc -o %~pn1.epub
+    %~pn1.epub
+
+-------------------------------
+
+testo testo
+
+
+

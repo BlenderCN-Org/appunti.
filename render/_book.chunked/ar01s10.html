@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>10. Appunti per la scrittura</title><link rel="stylesheet" type="text/css" href="docbook-xsl.css" /><meta name="generator" content="DocBook XSL Stylesheets V1.78.1" /><link rel="home" href="index.html" title="Appunti" /><link rel="up" href="index.html" title="Appunti" /><link rel="prev" href="ar01s09.html" title="9. Public Speaking" /><link rel="next" href="ar01s11.html" title="11. Comandi Linux" /></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ar01s09.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ar01s11.html">Next</a></td></tr></table><hr /></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="_appunti_per_la_scrittura"></a>10. Appunti per la scrittura</h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_stenografia"></a>10.1. Stenografia</h3></div></div></div><div class="informalfigure"><div class="mediaobject"><img src="figures/alfabetoCIMaA.jpg" alt="figures/alfabetoCIMaA.jpg" /></div></div><p>Studiare</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+Sec
+</li><li class="listitem">
+Gl
+</li></ul></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_comandi_e_dintorni"></a>10.2. Comandi e dintorni</h3></div></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_codice_per_pandoc"></a>Codice per Pandoc</h4></div></div></div><p>Blablablabla</p></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_help_per_notepad"></a>Help per notepad++</h4></div></div></div><p>Blablablabla</p></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_dettagli_per_creazione_epub"></a>Dettagli per creazione EPUB</h4></div></div></div><div class="section"><div class="titlepage"><div><div><h5 class="title"><a id="_copertina"></a>Copertina</h5></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+<span class="strong"><strong>Formato</strong></span>: 800 X 1324 X 24 BPP
+</li></ul></div></div><div class="section"><div class="titlepage"><div><div><h5 class="title"><a id="_grafiche"></a>Grafiche</h5></div></div></div><p>Per ora cominciare a provare con il formato 800 X 450</p></div><div class="section"><div class="titlepage"><div><div><h5 class="title"><a id="_da_studiare"></a>Da studiare</h5></div></div></div><p>I fogli di stile.</p><p>Da aggiungere alla parte YAML</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+stylesheet
+</li><li class="listitem">
+editor
+</li></ul></div></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_asciidoc"></a>asciidoc</h4></div></div></div><p>I riferimenti a link mancanti uccidono</p><p><strong>Python + FOP. </strong>
+</p><pre class="screen">    Scaricare asciidoc.zip
+    Esploderlo
+    Andare nella cartella asciidocx.x.x
+    C:\&gt; "path\python.exe" asciidoc.py -b html -d article book.adoc
+    C:\&gt; "path\python.exe" asciidoc.py -b docbook -d article book.adoc
+    Scaricare ultima versione di FOP
+    andare nella cartlella di FOP
+    C:\&gt; fop -xml foo.xml -xsl foo.xsl -pdf foo.pdf
+    C:\&gt; fop -xml foo.xml -xsl foo.xsl -rtf foo.rtf</pre><p>
+</p><p>Seguono alcuni codici risultati funzionanti da Linux</p><pre class="screen">    a2x -f chunked -D chunk -v  -k _book.adoc
+    a2x --fop -D chunk -v _book.adoc</pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_dos"></a>DOS</h4></div></div></div><p><strong>Batch. </strong>
+</p><pre class="screen">    "C:\Users\Maurizio\AppData\Local\Pandoc\Pandoc.exe" %1 -s --toc -o %~pn1.epub
+    %~pn1.epub</pre><p>
+</p><p>testo testo
+== Appunti di informatica</p></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_scripts"></a>10.3. Scripts</h3></div></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_asciidoctor"></a>Asciidoctor</h4></div></div></div><p><strong>Installation. </strong>
+</p><pre class="screen">        installa la versione java
+        gem install asciidoctor
+        gem update asciidoctor
+        gem install --pre asciidoctor-pdf
+        gem install coderay pygments.rb <a id="CO1-1"></a>(1)
+        asciidoctor-pdf -v <a id="CO1-2"></a>(2)</pre><p>
+</p><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO1-1">(1)</a> </p></td><td valign="top" align="left"><p>
+per sottolineare il codice sorgente
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO1-2">(2)</a> </p></td><td valign="top" align="left"><p>
+test pdf working
+</p></td></tr></table></div><p><strong>Asciidoctor-latex. </strong>
+</p><pre class="screen">        $ git clone https://github.com/asciidoctor/asciidoctor-latex.git
+        $ cd asciidoctor-latex
+        $ gem build asciidoctor-latex.gemspec
+        $ gem install *.gem
+
+        $ git clone https://github.com/jxxcarlson/asciidoctor-make-index
+        $ https://github.com/asciidoctor/asciidoctor-latex
+        $ cd asciidoctor-latex
+        $ rake install</pre><p>
+</p><p><strong>EPUB3. </strong>
+</p><pre class="screen">        git clone https://github.com/asciidoctor/asciidoctor-epub3
+        cd asciidoctor-epub3
+        gem install bundle
+        bundle install
+        rake build
+        gem install pkg/asciidoctor-epub3-1.0.0.dev.gem</pre><p>
+</p><p><strong>Update. </strong>
+</p><pre class="screen">gem update asciidoctor <a id="CO2-1"></a>(1)
+gem cleanup asciidoctor <a id="CO2-2"></a>(2)</pre><p>
+</p><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO2-1">(1)</a> </p></td><td valign="top" align="left"><p>
+Update del pacchetto asciidoctor. gem update per update di tutti i pacchetti
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO2-2">(2)</a> </p></td><td valign="top" align="left"><p>
+toglie le versioni precedenti
+</p></td></tr></table></div></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_git"></a>Git</h4></div></div></div><pre class="literallayout">git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'</pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="_imagemagik"></a>ImageMagik</h4></div></div></div><p>Convertire un psd mmyk in rgb per editing con GIMP</p><p>convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png</p></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_python"></a>10.4. Python</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+Registrare COM objects: Lib\site-packages\win32com\client\makepy.py
+</li><li class="listitem"><p class="simpara">
+Pycharm
+</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; "><li class="listitem">
+os.environ["PATH"] += ";" + os.path.dirname(PyQt4.<span class="emphasis"><em>file</em></span>)
+</li></ul></div></li></ul></div></div></div><div class="navfooter"><hr /><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ar01s09.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ar01s11.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top"> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>

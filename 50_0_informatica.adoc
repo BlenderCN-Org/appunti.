@@ -1,0 +1,184 @@
+
+== Appunti di informatica
+
+////
+:doctype: book
+:encoding: utf-8
+:lang: it
+:toc: left
+:toclevels: 4
+////
+
+
+=== Scripts
+
+==== ((Asciidoc))
+
+    
+I riferimenti a link mancanti uccidono
+
+.Python + FOP
+--------------------------------
+    Scaricare asciidoc.zip
+    Esploderlo
+    Andare nella cartella asciidocx.x.x
+    C:\> "path\python.exe" asciidoc.py -b html -d article book.adoc
+    C:\> "path\python.exe" asciidoc.py -b docbook -d article book.adoc
+    Scaricare ultima versione di FOP
+    andare nella cartlella di FOP
+    C:\> fop -xml foo.xml -xsl foo.xsl -pdf foo.pdf
+    C:\> fop -xml foo.xml -xsl foo.xsl -rtf foo.rtf
+--------------------------------
+
+Seguono alcuni codici risultati funzionanti da Linux
+
+--------------------------------
+    a2x -f chunked -D chunk -v  -k _book.adoc
+--------------------------------
+
+Funziona con gli indici
+
+    a2x -D render -f xhtml _book.adoc 
+    a2x -D render -f chunked -v _book.adoc
+    a2x --fop -D render -v _book.adoc
+
+
+
+==== ((Asciidoctor))
+
+.Installation
+-------------------------
+
+	installa la versione java
+	gem install asciidoctor
+	gem update asciidoctor
+	gem install --pre asciidoctor-pdf 
+	gem install coderay pygments.rb <1>
+	asciidoctor-pdf -v <2>
+-------------------------
+<1> per sottolineare il codice sorgente
+<2> test pdf working
+
+.Asciidoctor-latex
+--------------------------
+	$ git clone https://github.com/asciidoctor/asciidoctor-latex.git
+	$ cd asciidoctor-latex
+	$ gem build asciidoctor-latex.gemspec
+	$ gem install *.gem
+	
+	$ git clone https://github.com/jxxcarlson/asciidoctor-make-index
+	$ https://github.com/asciidoctor/asciidoctor-latex
+	$ cd asciidoctor-latex
+	$ rake install
+--------------------------
+
+
+.EPUB3
+--------------------------
+	git clone https://github.com/asciidoctor/asciidoctor-epub3
+	cd asciidoctor-epub3
+	gem install bundle
+	bundle install
+	rake build
+	gem install pkg/asciidoctor-epub3-1.0.0.dev.gem
+--------------------------
+
+.Update
+--------------------------
+gem update asciidoctor <1>
+gem cleanup asciidoctor <2>
+--------------------------
+<1> Update del pacchetto asciidoctor. gem update per update di tutti i pacchetti
+<2> toglie le versioni precedenti
+
+==== ((FFMPEG)) ((AVCONV))
+
+.Eliminare una traccia audio footnote:[fonte: http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file]
+
+First run 
+
+    ffmpeg -i file.mp4
+    
+    Stream #0.0: Video: mpeg4, yuv420p, 720x304 [PAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
+    Stream #0.1: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+    Stream #0.2: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+
+Per togliere la prima traccia audio
+
+    avconv -i file.mp4 -map 0:0 -map 0:2 -acodec copy -vcodec copy new_file.mp4
+    
+Per convertire dal formato ((yuv))
+    
+    avconv -f rawvideo -pix_fmt yuv420p -s 1280x720 -i test4.yuv -i 01_mic_mmp_nel_cast_felici.ogg' test4.avi
+    
+
+==== ((Blender))
+
+Informazioni basilari:
+
+- numpad 0 camera, 1 front, 5 ortogonale, 3 side.
+- Shift: s menu per portare il cursore al centro.
+- *w* menu specials
+- Nel menu graph premere *h* per mostrare le opzioni per le maniglie dei nodi 
+- Traking oggetti CTRL T
+
+===== Paths - come far seguire la telecamera
+
+- Aggiungere una curva path al progetto
+- Per aggiungere Puntare all'ultimo punto in edit mode e premere *e* per aggiungere punti,
+- per aggiungere sottosegmenti selezionare due segmenti e premere *w*
+- Si chiude una curva path premento *C* in edit mode
+- Transform windows (*n*) rendere lunghe o invisibili le freccette
+- Per ruotare l'asse delle frecce direzionali selezionare in edit mode i punti di controllo e premere *CTRL+T* (tilt nel menu tools)
+- Nella sezione object properties selezionare Object Data (simbolo Bezier a due punti) e spuntiamo follow
+- Selezionare poi la telecamera
+
+===== Impostare un'animazione:
+
+- SU preferences - add ons mettere spunta su "Import images as planes"
+- premere Shift S - porta il cursore al centro
+- Importare le immagini (as planes) con le opzioni *Shadeless, user alpha (premultiplied), ztransparent*
+- Ruotare i pannelli selezionati premento in sequenza *r* (rotate) *x* (su asse x) *90* (gradi) invio 
+- view- align view - align camera to panel
+- Assembla il personaggio nuovendo con G [x,y,x] e assemblare il personaggio, scalando con S
+- Cambia il centro di rotazione degli arti con TAB (edit mode), poi G (allinea al nuovo fulcro), poi TAB nuovamente e G per riposizionare l'arto.
+- Nella testa seleziona tutti gli elementi (testa per ultima) e premi crtl+P - object per unire il gruppo
+- Ora portare l'immagin nel punto di partenza del video 
+- 
+e premere *i* (insert key frame)
+
+==== ((Git))
+    
+    git config --global credential.helper cache
+    git config --global credential.helper 'cache --timeout=360000'
+    
+==== ((ImageMagik))
+
+Convertire un psd mmyk in rgb per editing con GIMP
+
+convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
+
+=== ((Inkscape))
+
+.Scorciatoie
+|===
+| Effetto | Scorciatoia
+| Align and Distribute | Shift + Ctrl +A
+| Layers | Shift + Ctrl +L
+| Document Preferences |  Shift + Ctrl +D 	
+| Trace Bitmap | Shift + Alt +B
+| Rulers | Ctrl + R
+| Bars | Ctrl + B
+|===
+
+
+ 
+
+=== Python
+
+* Registrare COM objects: Lib\site-packages\win32com\client\makepy.py
+* Pycharm
+    ** os.environ["PATH"] += ";" + os.path.dirname(PyQt4.__file__)
+	
+
+	
