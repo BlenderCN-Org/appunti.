@@ -299,8 +299,8 @@ sudo nano /root/smb/credentials
 
 .Compilazione credentials
 ----------------
-username=sda1w
-password=scr1v1
+username=user
+password=pwd
 ----------------
 
 .Comandi
@@ -317,7 +317,7 @@ sudo mount -a <2>
 
 
 
-==== Torrent
+==== Torrent, Transmission
 
 .Comandi iniziali
 ---------
