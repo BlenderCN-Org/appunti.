@@ -13,7 +13,6 @@
 . link:40_comunicazione.adoc[Comunicazione]
 .. link:40_2_musica.adoc[Musica]
 .. link:40_1_canto.adoc[Canto]
-... Musica
 .. link:42_carisma.adoc[Carisma]
 .. link:43_mindfulness.adoc[Mindfulness e Apprendimento]
 . link:48_public_speaking.adoc[Public Speaking]
