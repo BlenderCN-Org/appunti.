@@ -2,7 +2,7 @@
 
 Accordi ukulele – Maggiori
 
-
+[header="true"]
 |========= 
 | Nota | 1 | 2 | 3 
 | C (Do) | 0·0·0·3 | 0·4·0·3 | 0·7·8·7 | 
