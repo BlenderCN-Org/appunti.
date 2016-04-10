@@ -37,15 +37,16 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 | d+ | down, 3/4 di battuta  
 | u- | up, 1/4 di battuta  
 | d- | down, 1/4 di battuta 
+| . | 1/2 di battuta senza gesti
 |====
 
 
 .4/4
 |====
 | standard | u d | u d | u d | u d
-| swing | u_u. d. | u_u. d. | u_u. d. | u_u. d.
-| chiesaiolo | d | d u | . u | d
-| calimba | d | d u | . u | d
+| swing | u+ d- | u+ d-| u+ d-| u+ d-
+| church | D | d U | D | d U 
+| calipso | d . | d u | . u | d .
 | standard | u | u d | u | ud
 |====
 
