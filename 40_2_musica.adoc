@@ -24,3 +24,46 @@ Gm (Sol minore) | 0·2·3·1 | 0·7·6·5 | 0·7·6·10 |
 Am (La minore) | 2·0·0·0 | 2·4·5·0 (Powerchord) | 7·9·8·7 | 
 Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 | 
 |========= 
+
+==== Esercizi Strumming
+
+.Nomenclatura
+|====
+| u | up, mezza battuta  
+| d | down, mezza battuta 
+| U | up, una battuta 
+| D | down, una battuta 
+| u+ | up, 3/4 di battuta  
+| d+ | down, 3/4 di battuta  
+| u- | up, 1/4 di battuta  
+| d- | down, 1/4 di battuta 
+|====
+
+
+.4/4
+|====
+| standard | u d | u d | u d | u d
+| swing | u_u. d. | u_u. d. | u_u. d. | u_u. d.
+| chiesaiolo | d | d u | . u | d
+| calimba | d | d u | . u | d
+| standard | u | u d | u | ud
+|====
+
+.3/4
+|====
+| u | u d | | ud
+|====
+
+
+==== Ukulele songs
+
+Amazing Grace footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: *Note* C C7 F G7 + 
+4/4 pattern C C7 F C/C7 | F C C G7/C
+
+
+
+* You're my sunshine footnote:[https://youtu.be/dnA3T8uuuoY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]
+
+.Risorse utili da cui ho tratto le info di questo capitolo
+* https://www.youtube.com/user/MusicTeacher2010/
+* 
