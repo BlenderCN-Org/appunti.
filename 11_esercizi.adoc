@@ -198,7 +198,7 @@ Clean:: Esercizio in 4 step.
         
 
 ((front squat))::
-    <<accosciata, squat>> con il bilanciere appoggiato al petto.
+    Accosciata con il bilanciere appoggiato al petto.
     
 ((Renegade))::
 	_Sinonimi_: ((remata))
