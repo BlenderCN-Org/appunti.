@@ -71,12 +71,21 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 
 
 
-==== Ukulele songs
+=== Songs
 
-A children's lullabyfootnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: 4/4 C G7 C G7
-Amazing Grace footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: *Note* C C7 F G7 + 
+((A children's lullaby)) footnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I V7, Tonalità C +
+4/4 Pattern C G7 C G7
+
+((Amazing Grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
 4/4 pattern C C7 F C/C7 | F C C G7/C
+
+((Fra' Martino)):: *Note* C 
+
+((London Bridge)):: Progressione I V7, Tonalità C +
+4/4 pattern C C G7 C
+
 You're my sunshine footnote:[https://youtu.be/dnA3T8uuuoY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: da fare
+
 ((Se sei felice e tu lo sai))footnote:[https://youtu.be/elTDFX9r_9k?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: 4/4 pattern:  G D7 D7 G | C G D7 G
 
 
