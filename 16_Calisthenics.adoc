@@ -6,7 +6,6 @@ Estratto dal libro di U. Miletto
 .Condizionamento 1 foo
 [format="csv", cols="^1,1,1", options="header"]
 |===
-Esercizio, W1 (es+rip)*rip, W2 (es+rip)*rip, W3 (es+rip)*rip, W4 (es+rip)*rip 
 Trazioni impugnatura inversa, 20,10
 Full Squat, 20, 10
 Piegamenti a piedi in appoggio sollevato, 20, 10
