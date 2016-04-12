@@ -3,6 +3,10 @@
 
 === Teoria
 
+=== 4 accordi POP
+
+G, D, Em, C
+I V vi IV
 
 .((Progressione I I7 IV V7))
 [format="csv", options="header"]
