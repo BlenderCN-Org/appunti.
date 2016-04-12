@@ -6,7 +6,7 @@
 .. link:13_esercizi_zuu.adoc[Zuu]
 .. link:14_yoga.adoc[Yoga]
 .. link:15_esercizi_palestra.adoc[Palestra]
-.. link:16calisthenics.adoc[Calisthennics]
+.. link:16_calisthenics.adoc[Calisthennics]
 .. link:20_stretching.adoc[Stretching]
 .. link:21_posturali.adoc[Postura]
 . link:30_salute.adoc[Salute]
