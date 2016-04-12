@@ -3,7 +3,7 @@
 
 === Teoria
 
-=== 4 accordi POP
+==== 4 accordi POP
 
 G, D, Em, C
 I V vi IV
