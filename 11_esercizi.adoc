@@ -4,7 +4,7 @@
 
 === Corpo libero
 
-[[Accosciata]]
+///[[Accosciata]]///
 ((Accosciata))::  
     _Sinonimi_: ((air squat)), ((squat)) +
     Esercizio che prevede il passaggio dalla posizione eretta a quella accosciata: gambe flesse oltre i 90°, schiena eretta, peso sulla pianata del piede. Le braccia possono essere parallele al terreno o più sollevate. riferimento <<esercizi1, figura 1a>>
