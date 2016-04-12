@@ -125,7 +125,7 @@ todo eliminare immagini
     Esercizio dinamico che si fapassando dalla posizione di <<plank, plank sui gomiti>> a quella di <<teaser>>
 
 ((Power cobra))::
-    Esercizio dinamico che comporta il passare in maniera alternata dalla posizione <<bhujangasana, cobra>> a quella accosciata, accosciata
+    Esercizio dinamico che comporta il passare in maniera alternata dalla posizione <<bhujangasana, cobra>> a quella accosciata.
 
 ((Trazioni))::
 	_Sinonimi_: ((Pull up)) +
