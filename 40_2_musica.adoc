@@ -1,5 +1,19 @@
-=== Musica
+== Musica
 
+
+=== Teoria
+
+
+.((Progressione I I7 IV V7))
+[format="csv", options="header"]
+|===
+I, ii, iii, IV, V, vi, vii
+C, D, E, F, G, A, B
+FL, G, A, Bb, C, D, E
+G, A, B, C, D, E, F#
+A, B, C#, D, E, F#, G#
+D, E, F#, G, A, B, C#
+|===
 
 
 
@@ -68,18 +82,6 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 | alternato | 1 3 2 4
 | mike1 | 1 3 4 3 - 2 3 4 3
 |====
-
-.((Progressione I I7 IV V7))
-[format="csv", options="header"]
-|===
-I, ii, iii, IV, V, vi, vii
-C, D, E, F, G, A, B
-FL, G, A, Bb, C, D, E
-G, A, B, C, D, E, F#
-A, B, C#, D, E, F#, G#
-D, E, F#, G, A, B, C#
-|===
-
 
 === Songs
 
