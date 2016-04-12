@@ -10,6 +10,7 @@
 .. link:20_stretching.adoc[Stretching]
 .. link:21_posturali.adoc[Postura]
 . link:30_salute.adoc[Salute]
+. link:40_2_musica.adoc[Musica]
 . link:40_comunicazione.adoc[Comunicazione]
 .. link:40_2_musica.adoc[Musica]
 .. link:40_1_canto.adoc[Canto]
