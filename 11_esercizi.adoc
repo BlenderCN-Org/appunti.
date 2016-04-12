@@ -195,7 +195,7 @@ Clean:: Esercizio in 4 step.
         * _((clean press))_ +
          come il clean ma si completa con un push press
         * _((power clean))_ +
-        variazione del punto 3: ferma la barra a mezzo <<accosciata, squat>>. Questa versione necessita che la barra sia lanciata più in alto.
+        variazione del punto 3: ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.
         
 
 ((front squat))::
