@@ -389,12 +389,14 @@ sudo chown pi:users trnt/
 chmod g+w tmp/
 chmod g+w trnt/
 sudo nano /etc/sysctl.conf <3>
+sudo update-rc.d transmission-daemon defaults <4>
 sudo reboot
 -----------------
 <1> nella riga use editare "USER=pi"
 <2> per evitare problemi di privilegi sporadici
 <3> se necessario modificare l'ultima riga così +
     vm.min_free_kbytes = 16384
+<4> questo dovrebbe metterlo di default in autorun.
     
 .Da qualunque browser
 ---------
