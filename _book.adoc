@@ -76,3 +76,8 @@ include::aa_giochi.adoc[giochi]
 
 Indice dei termini
 
+== TOC
+
+{{toc}}
+
+
