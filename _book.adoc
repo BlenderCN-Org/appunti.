@@ -8,12 +8,12 @@ v1.0, 160112
 :keywords: Esercizi, Mindfulness
 :lang: it
 :pdf-page-size: A4
-:toclevels: 4
 :author: Maurizio Stagni
 
 
 ////
 :toc: left
+:toclevels: 4
 :imagesdir: .
 :imagesdir: /home/maurizio/Mao/GDrive/Fitness/MentorBook/
 :encoding: utf-8
