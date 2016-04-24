@@ -37,7 +37,7 @@ Blablablabla
 (((Formato A4))) (((A4)))
 
 .Formato iso Ax
-[header='true']
+[options="header", cols='1,3,3,4']
 |===
 |  |(mm)        |       (in)  | @150 dpi 
 | 0          | 841 x 1189 | 33.1 x 46.8 | 4965.0 x 7020.0
@@ -52,7 +52,8 @@ Blablablabla
 | 9          | 37 x 52    | 1.5  x 2.0  | 225.0 x 300.0
 | 10         | 26 x 37    | 1.0  x 1.5  | 150.0 x 225.0
 |===
-Per ora cominciare a provare con il formato 800 X 450
+
+Per le immagini del presente opto preferenzialemnte per 2 formati: PNG e SVG. Inoltre standardizzo 3 risoluzioni (si può
 
 ===== Da studiare
 
