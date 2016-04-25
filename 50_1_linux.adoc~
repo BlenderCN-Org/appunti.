@@ -334,11 +334,7 @@ sudo mount -a <2>
 
 === SVG File batch conversion
 
-    sudo apt-get install librsvg2-bin
-    rsvg-convert  // è il comando 
-    
-    converte tutto a 150dpi
-    for i in *; do rsvg-convert $i -d 150 -p 150-o `echo $i | sed -e 's/svg$/png/'`; done
+for i in *.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
     
 
 === Torrent, Transmission
