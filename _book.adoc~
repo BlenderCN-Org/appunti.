@@ -33,8 +33,6 @@ Change Book Name, Author's Name and Language for your need.
 ////
 
 
-toc::[]
-
 include::00_intestazione.adoc[]
 include::11_esercizi.adoc[]
 include::12_crossfit.adoc[]
@@ -79,4 +77,9 @@ include::aa_giochi.adoc[giochi]
 .Index terms
 index::[]
 
+////
+== TOC
+
+{{toc}}
+////
 
