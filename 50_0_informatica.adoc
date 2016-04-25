@@ -85,11 +85,10 @@ Funziona con gli indici
 
 .Update
 --------------------------
-gem update asciidoctor <1>
-gem cleanup asciidoctor <2>
+    gem update asciidoctor 
+    gem update asciidoctor-pdf
+    gem cleanup asciidoctor
 --------------------------
-<1> Update del pacchetto asciidoctor. gem update per update di tutti i pacchetti
-<2> toglie le versioni precedenti
 
 ==== ((FFMPEG)) ((AVCONV))
 
