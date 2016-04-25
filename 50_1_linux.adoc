@@ -332,7 +332,12 @@ sudo mount -a <2>
 
 
 
-==== Torrent, Transmission
+=== SVG File batch conversion
+
+for i in *; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
+    
+
+=== Torrent, Transmission
 
 .Comandi iniziali
 ---------
@@ -404,7 +409,7 @@ sudo reboot
 ---------
 
 
-==== ((Unison))
+=== ((Unison))
 
 Sincronismo 3 dispositivi. Stella con il raspberry
 

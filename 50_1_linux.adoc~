@@ -245,6 +245,7 @@ Dropbox App Secret - leave blank normally.
 
     rclone sync source:path dest:path
 
+    rclone sync -v ~/Mao/GDrive/Fitness gb:Fitness/**
     
 [[samba]]
 === samba
@@ -331,7 +332,16 @@ sudo mount -a <2>
 
 
 
-==== Torrent, Transmission
+=== SVG File batch conversion
+
+    sudo apt-get install librsvg2-bin
+    rsvg-convert  // è il comando 
+    
+    converte tutto a 150dpi
+    for i in *; do rsvg-convert $i -d 150 -p 150-o `echo $i | sed -e 's/svg$/png/'`; done
+    
+
+=== Torrent, Transmission
 
 .Comandi iniziali
 ---------
@@ -403,7 +413,7 @@ sudo reboot
 ---------
 
 
-==== ((Unison))
+=== ((Unison))
 
 Sincronismo 3 dispositivi. Stella con il raspberry
 
