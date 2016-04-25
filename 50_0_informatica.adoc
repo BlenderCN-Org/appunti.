@@ -86,8 +86,9 @@ Funziona con gli indici
 .Update
 --------------------------
     gem update asciidoctor 
-    gem update asciidoctor-pdf
     gem cleanup asciidoctor
+    gem update asciidoctor-pdf
+    gem cleanup asciidoctor-pdf
 --------------------------
 
 ==== ((FFMPEG)) ((AVCONV))
