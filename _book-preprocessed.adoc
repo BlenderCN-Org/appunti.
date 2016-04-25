@@ -811,12 +811,52 @@ image::figures/asana_yoga/Uttanasana_variation.jpg[width='80%']
 .alcuni esercizi: a. ((tadasana)), b. ((savasana)), c. ((xx)), d. ((xx)), e. ((xx)), f. ((xx)), g. ((xx)), h. ((xx))
 image::figures/asana_yoga/asana_01.svg[]
 
+.suggeritmento
+todo
+sezuonare solo le posizioni in tabella 3X3
+mettere i descrittivi sopra
+
+((Pranamasana))::
+    sinonimi: _((Posizione della preghiera))_ +
+    Espirare con i piedi uniti e le mani giunte davanti al petto. +
+    image:figures/asana_yoga/pranamasana.svg[]
+
+((Hasta uttanasana))::
+    sinonimi: _((Posizione delle mani sollevate))_ +
+    Inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro. +
+    image:figures/asana_yoga/hasta_uttanasana.svg[]
+
+((Padahastasana))::
+    sinonimi: _((Posizione delle mani ai piedi))_ +
+    espirare piegandosi in avanti partendo dai fianchi, fino ad appoggiare i palmi delle mani a terra ai lati dei piedi. +
+    image:figures/asana_yoga/padahastasana.svg[]
+
+((Ashwa sanchalanasana))::
+    sinonimi: _((Posizione equestre))_ +
+    Inspirare stendendo la gamba sinistra indietro; contemporaneamente piegare il ginocchio destro e guardare in alto sollevando il mento. +
+    image:figures/asana_yoga/ashwa_sanchalanasana.svg[]
+
+((Adho mukha svanasana))::
+    sinonimi: _((Posizione del cane che guarda indietro))_ +
+    trattenere il respiro e portare il piede destro indietro, vicino al sinistro. Obiettivo è che il corpo formi una linea dritta. +
+    image:figures/asana_yoga/adhomuka.svg[]
+
+((Ashtanga namaskara))::
+    sinonimi: _((Saluto con gli “otto” arti del corpo))_ +
+    espirare portando a terra le ginocchia, il petto e la fronte, tenendo sollevati il bacino e lo stomaco. +
+    image:figures/asana_yoga/ashtanga_namaskara.svg[]
+
+((Bhujangasana))::
+    sinonimi: _((Posizione del serpente))_ o _((posizione del cobra))_ +
+    inspirare e guardare in alto, sollevando la parte superiore del corpo e le braccia. +
+    image:figures/asana_yoga/bhujangasana.svg[] |
+
 
 
 === Sequenze Yoga
 
 .Saluto al sole
-[cols="1,3"]
+[cols="^1,3"]
 |===
 | image:figures/asana_yoga/pranamasana.svg[] | Posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
 | image:figures/asana_yoga/hasta_uttanasana.svg[] | Posizione delle mani sollevate: ((Hasta uttanasana)) inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.
