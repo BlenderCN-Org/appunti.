@@ -74,7 +74,7 @@ include::aa_giochi.adoc[giochi]
 
 == Index
 
-Indice dei termini
+.Index terms
 index::[]
 
 == TOC
