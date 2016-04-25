@@ -77,8 +77,9 @@ include::aa_giochi.adoc[giochi]
 .Index terms
 index::[]
 
+////
 == TOC
 
 {{toc}}
-
+////
 
