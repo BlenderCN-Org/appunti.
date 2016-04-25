@@ -47,7 +47,7 @@ image::figures/asana_yoga/asana_01.svg[]
 === Sequenze Yoga
 
 .Saluto al sole
-[cols="1,3"]
+[cols="^1,3"]
 |===
 | image:figures/asana_yoga/pranamasana.svg[] | Posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
 | image:figures/asana_yoga/hasta_uttanasana.svg[] | Posizione delle mani sollevate: ((Hasta uttanasana)) inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.
