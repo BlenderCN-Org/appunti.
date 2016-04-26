@@ -58,6 +58,7 @@ include::50_3_android.adoc[]
 include::50_4_windows.adoc[]
 include::60_business.adoc[]
 include::70_felicita.adoc[]
+
 ////
 include::71_felicita.adoc[]
 include::72_felicita.adoc[]
@@ -79,6 +80,8 @@ include::aa_giochi.adoc[giochi]
 ////
 
 == Index
+
+Indice dei nomi
 
 ////
 .Index terms
