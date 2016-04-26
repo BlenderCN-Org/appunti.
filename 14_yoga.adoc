@@ -6,7 +6,7 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 
 .modello asana
 ((asana .....................)):: 
-    image:figures/empty_3cmx5cm.svg[role=right] 
+    image:figures/empty_3cmx5cm.svg[role=right]
     _Sinomimi_: ((posizione del ................)), + 
     ((posizione del .........)). +
     _Respiro_: inspirare / espirare / apnea. Da considerare se eseguito in una sequenza. Per posizione mantenuta non considerare. +
@@ -15,58 +15,58 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 
 
 ((adho mukha svanasana))::
-    image:figures/asana_yoga/adhomuka.svg[role=right]
+    image:figures/asana_yoga/adhomuka.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: ((downward-facing dog)), ((cane a faccia in giù)) +
     _Esecuzione_: Portando il peso sulle braccia, estendere le gambe alzando il bacino. Mantenere le piante dei piedi ben a terra. Inserire la testa tra le braccia, formando un triangolo con la schiena e le gambe ben dritte. +
     _Effetti_: La posizione ha lo scopo di allungare la schiena e fortificare le braccia e le gambe. +
 
 
 ((ashtanga namaskara))::
-    image:figures/asana_yoga/ashtanga_namaskara.svg[role=right]
+    image:figures/asana_yoga/ashtanga_namaskara.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: ((Saluto con gli “otto” arti del corpo)) +
     _Respiro_: espirare +
     _Esecuzione_: espirare portando a terra le ginocchia, il petto e la fronte, tenendo sollevati il bacino e lo stomaco.
 
 ((ashwa sanchalanasana))::
-    image:figures/asana_yoga/ashwa_sanchalanasana.svg[role=right]
+    image:figures/asana_yoga/ashwa_sanchalanasana.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: _((posizione equestre))_ +
     _Respiro_: inspirare +
     _Esecuzione_: estendendere la gamba sinistra indietro; contemporaneamente piegare il ginocchio destro e guardare in alto sollevando il mento. +
 
 
 ((bhujangasana)):: 
-    image:figures/asana_yoga/bhujangasana.svg[role=right]
+    image:figures/asana_yoga/bhujangasana.svg[role=right, pdfwidth=5cm]
     _Sinomimi_: ((posizione del cobra)), ((posizione del serpente)). +
     _Respiro_: inspirare +
     _Esecuzione_: Partendo dalla posizione prona, con il corpo disteso sulla pancia e le gambe unite e parallele con le cosce al suolo e piedi distesi e allungati sul dorso, si piegano le braccia portando i palmi delle mani a terra all'altezza delle spalle. Inspirando, si solleva il busto con le braccia, distendendole, mantenendo cosce e pube a contatto con il suolo. Sguardo in alto. +
     _Effetti_: rinforza i muscoli dorsali, promuove la flessibilità della colonna vertebrale e stimola la circolazione sanguigna nella regione spinale tonificando i plessi nervosi. Gli effetti di questo âsana interessano tutte le vertebre: una pratica attenta e costante permette la correzione di eventuali deviazioni della colonna vertebrale. Bhujangâsana risulta particolarmente efficace nell'affrontare dolori e irregolarità mestruali, costipazione e lombaggine. Vengono stimolati tutti gli organi addominali, in modo particolare il fegato e i reni. E' considerato un ottimo esercizio per la preparazione al parto, anche se non deve essere eseguito durante il periodo della gravidanza. footnote:[Fonte: http://www.yoga.it/articoli/bhujangasana-il-cobra/]
     
 ((hasta uttanasana))::
-    image:figures/asana_yoga/hasta_uttanasana.svg[role=right]
+    image:figures/asana_yoga/hasta_uttanasana.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: ((posizione delle mani sollevate)) +
     _Esecuzione_: Inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro. 
 
 ((padahastasana))::
-    image:figures/asana_yoga/padahastasana.svg[role=right]
+    image:figures/asana_yoga/padahastasana.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: _((posizione delle mani ai piedi))_ + 
     espirare piegandosi in avanti partendo dai fianchi, fino ad appoggiare i palmi delle mani a terra ai lati dei piedi. +
     
 
 
 ((pranamasana))::
-    image:figures/asana_yoga/pranamasana.svg[role=right] 
+    image:figures/asana_yoga/pranamasana.svg[role=right]
     _Sinonimi_: ((posizione della preghiera)) +
     _Esecuzione_: Espirare con i piedi uniti e le mani giunte davanti al petto.  
 
 
 ((shavasana))::
-    image:figures/asana_yoga/shavasana.svg[role=right] 
+    image:figures/asana_yoga/shavasana.svg[role=right]
     _Sinonimi_: ((posizione del cadavere)), ((Mrtasana)), ((savasana)) +
     _Esecuzione_: Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.
     
      
 ((uttanasana)) ::
-    image:figures/asana_yoga/uttanasana.svg[role=right]
+    image:figures/asana_yoga/uttanasana.svg[role=right, pdfwidth=5cm]
     _Sinonimi_: ((posizione della pinza in piedi)) +
     _Esecuzione_: Partendo dalla posizione in piedi, con la schiena dritta ed i piedi distanti come l'apertura delle anche e le braccia allungate oltre la testa, espirando si piega il bacino muovendo il corpo come fosse formato da due tronconi, allungando le mani fino a raggiungere le caviglie, il dorso dei piedi o sotto la pianta dei piedi, appoggiando il tronco parallelo alle gambe. footnoteref:[uttanasana, https://it.wikipedia.org/wiki/Uttanasana] +
     _Effetti_: La posizione ha lo scopo di allungare la schiena, traendola in senso conforme dell'usuale incurvatura. Crea benefici alla colonna vertebrale, distendendola footnoteref:[uttanasana].
@@ -79,11 +79,12 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 === Sequenze Yoga
 
 .Saluto al sole
+[header=yes, cols="^1,2"]
 |===
-| image:figures/asana_yoga/pranamasana.svg[scaledwidth=5cm] | posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
+| image:figures/asana_yoga/pranamasana.svg[] | posizione della preghiera: ((Pranamasana)) espirare con i piedi uniti e le mani giunte davanti al petto.
 | image:figures/asana_yoga/hasta_uttanasana.svg[] | posizione delle mani sollevate: ((Hasta uttanasana)) inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.
 | image:figures/asana_yoga/padahastasana.svg[] | posizione delle mani ai piedi: (Padahastasana) espirare piegandosi in avanti partendo dai fianchi, fino ad appoggiare i palmi delle mani a terra ai lati dei piedi.
-| image:figures/asana_yoga/ashwa_sanchalanasana.svg[] | posizione equestre: (Ashwa sanchalanasana) Inspirare stendendo la gamba sinistra indietro; contemporaneamente piegare il ginocchio destro e guardare in alto sollevando il mento.
+| image:figures/asana_yoga/ashwa_sanchalanasana.svg[scaledwidth=50%] | posizione equestre: (Ashwa sanchalanasana) Inspirare stendendo la gamba sinistra indietro; contemporaneamente piegare il ginocchio destro e guardare in alto sollevando il mento.
 | image:figures/asana_yoga/adhomuka.svg[] | posizione del cane che guarda indietro: (Adho mukha svanasana) trattenere il respiro e portare il piede destro indietro, vicino al sinistro. Obiettivo è che il corpo formi una linea dritta.
 | image:figures/asana_yoga/ashtanga_namaskara.svg[] | Saluto con gli “otto” arti del corpo: (Ashtanga namaskara) espirare portando a terra le ginocchia, il petto e la fronte, tenendo sollevati il bacino e lo stomaco.
 | image:figures/asana_yoga/bhujangasana.svg[] | posizione del serpente (o del cobra): ((Bhujangasana)) inspirare e guardare in alto, sollevando la parte superiore del corpo e le braccia.
