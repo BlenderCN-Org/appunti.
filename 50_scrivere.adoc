@@ -53,7 +53,16 @@ Blablablabla
 | 10         | 26 x 37    | 1.0  x 1.5  | 150.0 x 225.0
 |===
 
-Per le immagini del presente opto preferenzialemnte per 2 formati: PNG e SVG. Inoltre standardizzo 3 risoluzioni (si può
+Per le immagini del presente opto preferenzialemnte per 2 formati: PNG e SVG. Inoltre standardizzo 3 risoluzioni.
+
+.Conversione cm to pt
+-----
+1 Centimeter = 28.3464567 Points [Postscript]
+1 Point = 0.0352777778 Centimeters
+-----
+
+5 cm = 141.7322835 pt
+ pdfwidth
 
 ===== Da studiare
 
