@@ -2868,7 +2868,7 @@ sudo mount -a <2>
 
 === SVG File batch conversion
 
-for i in *; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
+for i in *.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
 
 
 === Torrent, Transmission
@@ -2990,7 +2990,7 @@ aggiungere eventuali altre opzioni con il metodo _opzione=valore_
         NB */5 è ogni 5 minuti, solo il 5 è alle 5 di ogni ora
 
 
-===== Versione alternativa
+==== Versione alternativa
 
 
     #Controlla la versione da remoto
