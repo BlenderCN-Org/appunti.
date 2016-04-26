@@ -456,7 +456,7 @@ aggiungere eventuali altre opzioni con il metodo _opzione=valore_
         NB */5 è ogni 5 minuti, solo il 5 è alle 5 di ogni ora
     
 
-===== Versione alternativa
+==== Versione alternativa
 
 
     #Controlla la versione da remoto
