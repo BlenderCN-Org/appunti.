@@ -27,13 +27,12 @@ v1.0, 160426
 	Default _ sia prima che al posto degli spazi
 :idprefix:
 :idseparator: -
-
 Change Book Name, Author's Name and Language for your need.
+toc::[]
 
 ////
 
 
-toc::[]
 
 include::00_intestazione.adoc[]
 include::11_esercizi.adoc[]
@@ -74,10 +73,7 @@ include::76_felicita.adoc[]
 include::80_ciappini.adoc[Ciappini]
 include::90_vacanze.adoc[Vacanze]
 include::99_risorse.adoc[Risorse]
-
-////
 include::aa_giochi.adoc[giochi]
-////
 
 == Index
 
