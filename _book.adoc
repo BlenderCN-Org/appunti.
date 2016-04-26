@@ -1,7 +1,7 @@
 
 = Appunti
 Maurizio Stagni <comeunbalconeATgmail.com>
-v1.0, 160112
+v1.0, 160426
 
 :doctype: book
 :description: vari appunti interessanti
@@ -68,6 +68,7 @@ include::74_felicita.adoc[]
 include::75_felicita.adoc[]
 include::76_felicita.adoc[]
 ////
+
 
 include::80_ciappini.adoc[Ciappini]
 include::90_vacanze.adoc[Vacanze]
