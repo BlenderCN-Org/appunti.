@@ -73,11 +73,18 @@ include::76_felicita.adoc[]
 include::80_ciappini.adoc[Ciappini]
 include::90_vacanze.adoc[Vacanze]
 include::99_risorse.adoc[Risorse]
+
+////
 include::aa_giochi.adoc[giochi]
+////
 
 == Index
 
+////
 .Index terms
 index::[]
+////
+
+
 
 
