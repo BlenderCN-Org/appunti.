@@ -160,7 +160,7 @@ installare repository locale
 
   #prima clonazione
   cd /dir/to/clone/
-  git clone path/above/repo/ my-project.git
+  git clone path/above/repo/my-project.git
   git push --set-upstream origin master
 
     
