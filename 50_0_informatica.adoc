@@ -154,9 +154,11 @@ e premere *i* (insert key frame)
     
 installare repository locale
 
+  # creazione repository
   cd path/above/repo
   git init --bare my-project.git
 
+  #prima clonazione
   cd /dir/to/clone/
   git clone path/above/repo/ my-project.git
   git push --set-upstream origin master
