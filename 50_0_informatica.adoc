@@ -152,6 +152,16 @@ e premere *i* (insert key frame)
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=360000'
     
+installare repository locale
+
+  cd path/above/repo
+  git init --bare my-project.git
+
+  cd /dir/to/clone/
+  git clone path/above/repo/ my-project.git
+  git push --set-upstream origin master
+
+    
 ==== ((ImageMagik))
 
 Convertire un psd mmyk in rgb per editing con GIMP
