@@ -148,7 +148,9 @@ Informazioni basilari:
 e premere *i* (insert key frame)
 
 ==== ((Git))
-    
+
+  allungare le credenziali sul git
+
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=360000'
     
