@@ -336,6 +336,7 @@ sudo mount -a <2>
 
 for i in *.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
     
+for i in _base_movies.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
 
 === Torrent, Transmission
 

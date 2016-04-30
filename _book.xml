@@ -2173,7 +2173,7 @@ Cobraz
 <variablelist><title>modello asana</title>
 <varlistentry>
 <term>
-<indexterm><primary>asana &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;</primary></indexterm>asana &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;
+<indexterm><primary>nome</primary></indexterm>nome
 </term>
 <listitem>
 <simpara>
@@ -2199,11 +2199,11 @@ Cobraz
 <simpara>
     <inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/asana_yoga/adhomuka.svg"/>
+  <imagedata fileref="figures/asana_yoga/adho_mukha_svanasana.svg"/>
   </imageobject>
   <textobject><phrase>role=right</phrase></textobject>
 </inlinemediaobject>
-    <emphasis>Sinonimi</emphasis>: <indexterm><primary>downward-facing dog</primary></indexterm>downward-facing dog, <indexterm><primary>cane a faccia in giù</primary></indexterm>cane a faccia in giù<?asciidoc-br?>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>cane a faccia in giù</primary></indexterm>cane a faccia in giù, <indexterm><primary>downward-facing dog</primary></indexterm>downward-facing dog<?asciidoc-br?>
     <emphasis>Esecuzione</emphasis>: Portando il peso sulle braccia, estendere le gambe alzando il bacino. Mantenere le piante dei piedi ben a terra. Inserire la testa tra le braccia, formando un triangolo con la schiena e le gambe ben dritte.<?asciidoc-br?>
     <emphasis>Effetti</emphasis>: La posizione ha lo scopo di allungare la schiena e fortificare le braccia e le gambe.<?asciidoc-br?>
 </simpara>
@@ -2223,7 +2223,8 @@ Cobraz
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <indexterm><primary>Saluto con gli “otto” arti del corpo</primary></indexterm>Saluto con gli “otto” arti del corpo<?asciidoc-br?>
     <emphasis>Respiro</emphasis>: espirare<?asciidoc-br?>
-    <emphasis>Esecuzione</emphasis>: espirare portando a terra le ginocchia, il petto e la fronte, tenendo sollevati il bacino e lo stomaco.
+    <emphasis>Esecuzione</emphasis>: espirare portando a terra le ginocchia, il petto e la fronte, tenendo sollevati il bacino e lo stomaco.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
@@ -2242,6 +2243,25 @@ Cobraz
     <emphasis>Sinonimi</emphasis>: <emphasis><indexterm><primary>posizione equestre</primary></indexterm>posizione equestre</emphasis><?asciidoc-br?>
     <emphasis>Respiro</emphasis>: inspirare<?asciidoc-br?>
     <emphasis>Esecuzione</emphasis>: estendendere la gamba sinistra indietro; contemporaneamente piegare il ginocchio destro e guardare in alto sollevando il mento.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>baddha konasana</primary></indexterm>baddha konasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/baddha_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della farvalla</primary></indexterm>posizione della farvalla<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione della farfalla<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
@@ -2266,6 +2286,24 @@ Cobraz
 </varlistentry>
 <varlistentry>
 <term>
+<indexterm><primary>halasana</primary></indexterm>halasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/halasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione dell' aratro</primary></indexterm>posizione dell' aratro<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione dell&#8217;aratro <?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
 <indexterm><primary>hasta uttanasana</primary></indexterm>hasta uttanasana
 </term>
 <listitem>
@@ -2277,7 +2315,62 @@ Cobraz
   <textobject><phrase>role=right</phrase></textobject>
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione delle mani sollevate</primary></indexterm>posizione delle mani sollevate<?asciidoc-br?>
-    <emphasis>Esecuzione</emphasis>: Inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.
+    <emphasis>Esecuzione</emphasis>: Inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>karnapidasana</primary></indexterm>karnapidasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/karnapidasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione dell&#8217;aratro modificato</primary></indexterm>posizione dell&#8217;aratro modificato<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: posizione dell&#8217;aratro modificato<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>janu sirsasana</primary></indexterm>janu sirsasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/janu_sirsasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione piegata sulla gamba destra o sinistra</primary></indexterm>posizione piegata sulla gamba destra o sinistra<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: posizione piegata sulla gamba destra o sinistra <?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>supta baddha konasana</primary></indexterm>supta baddha konasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/supta_baddha_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione del calzolaio</primary></indexterm>posizione del calzolaio<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione del calzolaio <?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
@@ -2294,7 +2387,26 @@ Cobraz
   <textobject><phrase>role=right</phrase></textobject>
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <emphasis><indexterm><primary>posizione delle mani ai piedi</primary></indexterm>posizione delle mani ai piedi</emphasis><?asciidoc-br?>
-    espirare piegandosi in avanti partendo dai fianchi, fino ad appoggiare i palmi delle mani a terra ai lati dei piedi.<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: espirare piegandosi in avanti partendo dai fianchi, fino ad appoggiare i palmi delle mani a terra ai lati dei piedi.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>paschimottanasana</primary></indexterm>paschimottanasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/paschimottanasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione seduta in avanti</primary></indexterm>posizione seduta in avanti<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione seduta in avanti <?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
@@ -2312,6 +2424,43 @@ Cobraz
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della preghiera</primary></indexterm>posizione della preghiera<?asciidoc-br?>
     <emphasis>Esecuzione</emphasis>: Espirare con i piedi uniti e le mani giunte davanti al petto.
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>sarvangasana</primary></indexterm>sarvangasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/sarvangasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della candela</primary></indexterm>posizione della candela<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione della candela<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>shashankasana</primary></indexterm>shashankasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/shashankasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della lepre</primary></indexterm>posizione della lepre<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione della lepre<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
@@ -2328,13 +2477,32 @@ Cobraz
   <textobject><phrase>role=right</phrase></textobject>
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione del cadavere</primary></indexterm>posizione del cadavere, <indexterm><primary>Mrtasana</primary></indexterm>Mrtasana, <indexterm><primary>savasana</primary></indexterm>savasana<?asciidoc-br?>
-    <emphasis>Esecuzione</emphasis>: Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.
+    <emphasis>Esecuzione</emphasis>: Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
 </simpara>
 </listitem>
 </varlistentry>
 <varlistentry>
 <term>
-<indexterm><primary>uttanasana</primary></indexterm>uttanasana 
+<indexterm><primary>upavishta konasana</primary></indexterm>upavishta konasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/upavishta_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>seduta ad angolo</primary></indexterm>seduta ad angolo<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la seduta ad angolo<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>uttanasana</primary></indexterm>uttanasana <footnote id="uttanasana"><simpara><ulink url="https://it.wikipedia.org/wiki/Uttanasana">https://it.wikipedia.org/wiki/Uttanasana</ulink></simpara></footnote> 
 </term>
 <listitem>
 <simpara>
@@ -2345,16 +2513,259 @@ Cobraz
   <textobject><phrase>role=right</phrase></textobject>
 </inlinemediaobject>
     <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della pinza in piedi</primary></indexterm>posizione della pinza in piedi<?asciidoc-br?>
-    <emphasis>Esecuzione</emphasis>: Partendo dalla posizione in piedi, con la schiena dritta ed i piedi distanti come l&#8217;apertura delle anche e le braccia allungate oltre la testa, espirando si piega il bacino muovendo il corpo come fosse formato da due tronconi, allungando le mani fino a raggiungere le caviglie, il dorso dei piedi o sotto la pianta dei piedi, appoggiando il tronco parallelo alle gambe. <footnote id="uttanasana"><simpara><ulink url="https://it.wikipedia.org/wiki/Uttanasana">https://it.wikipedia.org/wiki/Uttanasana</ulink></simpara></footnote><?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Partendo dalla posizione in piedi, con la schiena dritta ed i piedi distanti come l&#8217;apertura delle anche e le braccia allungate oltre la testa, espirando si piega il bacino muovendo il corpo come fosse formato da due tronconi, allungando le mani fino a raggiungere le caviglie, il dorso dei piedi o sotto la pianta dei piedi, appoggiando il tronco parallelo alle gambe.<?asciidoc-br?>
     <emphasis>Effetti</emphasis>: La posizione ha lo scopo di allungare la schiena, traendola in senso conforme dell&#8217;usuale incurvatura. Crea benefici alla colonna vertebrale, distendendola <footnoteref linkend="uttanasana" />.
 </simpara>
 </listitem>
 </varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>utthita sarvangasana</primary></indexterm>utthita sarvangasana
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/utthita_sarvangasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione della candela aiutata destra o sinistra</primary></indexterm>posizione della candela aiutata destra o sinistra<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Eseguire la posizione della posizione della candela aiutata destra o sinistra<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: buonissimi.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>vajrasana</primary></indexterm>vajrasana <footnote><simpara><ulink url="https://it.wikipedia.org/wiki/Vajrasana">https://it.wikipedia.org/wiki/Vajrasana</ulink></simpara></footnote>
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/vajrasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Sinonimi</emphasis>: <indexterm><primary>posizione del diamante</primary></indexterm>posizione del diamante, <indexterm><primary>posizione del tuono</primary></indexterm>posizione del tuono<?asciidoc-br?>
+    <emphasis>Esecuzione</emphasis>: Inginocchiarsi a terra sedendosi sui piedi, appoggiati con il dorso a terra, e mantenendo la spina dritta e verticale con il collo allineato con essa. Le mani saranno appoggiate sulle ginocchia. I piedi possono rimanere paralleli e appoggiati a terra sul dorso.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: La posizione ha lo scopo preparare alla meditazione.
+</simpara>
+</listitem>
+</varlistentry>
 </variablelist>
-<simpara>&gt;&gt;&gt;</simpara>
 </section>
 <section id="_sequenze_yoga">
 <title>Sequenze Yoga</title>
+<table
+frame="all"
+rowsep="1" colsep="1"
+>
+<title>Rilassamento <footnote><simpara>vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300</simpara></footnote></title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33*"/>
+<colspec colname="col_2" colwidth="33*"/>
+<colspec colname="col_3" colwidth="33*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Posizione</simpara></entry>
+<entry align="left" valign="top"><simpara>Descrizione</simpara></entry>
+<entry align="left" valign="top"><simpara>Secondi</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/vajrasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Inginocchiarsi a terra sedendosi sui piedi, appoggiati con il dorso a terra, e mantenendo la spina dritta e verticale con il collo allineato con essa. Le mani saranno appoggiate sulle ginocchia. I piedi possono rimanere paralleli e appoggiati a terra sul dorso.</simpara></entry>
+<entry align="left" valign="top"><simpara>120</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/shashankasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione della lepre</simpara></entry>
+<entry align="left" valign="top"><simpara>180</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/adho_mukha_svanasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Portando il peso sulle braccia, estendere le gambe alzando il bacino. Mantenere le piante dei piedi ben a terra. Inserire la testa tra le braccia, formando un triangolo con la schiena e le gambe ben dritte.</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/uttanasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Inspirare distendendo le braccia verso l’alto e flettendo il tronco all’indietro.</simpara></entry>
+<entry align="left" valign="top"><simpara>120</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/baddha_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione della farfalla</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/upavishta_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la seduta ad angolo</simpara></entry>
+<entry align="left" valign="top"><simpara>120</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/janu_sirsasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>posizione piegata sulla gamba destra o sinistra</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/janu_sirsasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/paschimottanasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione seduta in avanti</simpara></entry>
+<entry align="left" valign="top"><simpara>240</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/shavasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/halasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione dell&#8217;aratro</simpara></entry>
+<entry align="left" valign="top"><simpara>30</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/sarvangasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione della candela</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/utthita_sarvangasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione della posizione della candela aiutata destra o sinistra</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/utthita_sarvangasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>60</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/karnapidasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>posizione dell&#8217;aratro modificato</simpara></entry>
+<entry align="left" valign="top"><simpara>30</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/halasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione dell&#8217;aratro</simpara></entry>
+<entry align="left" valign="top"><simpara>30</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/shavasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.</simpara></entry>
+<entry align="left" valign="top"><simpara>30</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/supta_baddha_konasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Eseguire la posizione del calzolaio</simpara></entry>
+<entry align="left" valign="top"><simpara>300</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/shavasana.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative.</simpara></entry>
+<entry align="left" valign="top"><simpara>300</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
 <table
 frame="all"
 rowsep="1" colsep="1"
@@ -2403,9 +2814,9 @@ rowsep="1" colsep="1"
 <row>
 <entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/asana_yoga/adhomuka.svg"/>
+  <imagedata fileref="figures/asana_yoga/adho_mukha_svanasana.svg"/>
   </imageobject>
-  <textobject><phrase>figures/asana_yoga/adhomuka.svg</phrase></textobject>
+  <textobject><phrase>figures/asana_yoga/adho_mukha_svanasana.svg</phrase></textobject>
 </inlinemediaobject></simpara></entry>
 <entry align="left" valign="top"><simpara>posizione del cane che guarda indietro: (Adho mukha svanasana) trattenere il respiro e portare il piede destro indietro, vicino al sinistro. Obiettivo è che il corpo formi una linea dritta.</simpara></entry>
 </row>
@@ -2430,9 +2841,9 @@ rowsep="1" colsep="1"
 <row>
 <entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/asana_yoga/adhomuka.svg"/>
+  <imagedata fileref="figures/asana_yoga/adho_mukha_svanasana.svg"/>
   </imageobject>
-  <textobject><phrase>figures/asana_yoga/adhomuka.svg</phrase></textobject>
+  <textobject><phrase>figures/asana_yoga/adho_mukha_svanasana.svg</phrase></textobject>
 </inlinemediaobject></simpara></entry>
 <entry align="left" valign="top"><simpara>posizione del cane che guarda indietro: (Adho mukha svanasana) espirare con le mani a terra, portando la punta dei piedi in avanti e spingendo le natiche verso l’alto e all’indietro.</simpara></entry>
 </row>
@@ -6550,8 +6961,17 @@ e premere <emphasis role="strong">i</emphasis> (insert key frame)
 </section>
 <section id="_indexterm_primary_git_primary_indexterm_git">
 <title><indexterm><primary>Git</primary></indexterm>Git</title>
+<literallayout class="monospaced">allungare le credenziali sul git</literallayout>
 <literallayout class="monospaced">git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=360000'</literallayout>
+<simpara>installare repository locale</simpara>
+<literallayout class="monospaced"># creazione repository
+cd path/above/repo
+git init --bare my-project.git</literallayout>
+<literallayout class="monospaced">#prima clonazione
+cd /dir/to/clone/
+git clone path/above/repo/my-project.git
+git push --set-upstream origin master</literallayout>
 </section>
 <section id="_indexterm_primary_imagemagik_primary_indexterm_imagemagik">
 <title><indexterm><primary>ImageMagik</primary></indexterm>ImageMagik</title>
