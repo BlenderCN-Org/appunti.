@@ -33,6 +33,12 @@
      y="0.50895691"
      id="rect2993"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:1.04886448;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <image
+     xlink:href="halasana.svg"
+     width="450"
+     height="450"
+     y="200"
+     x="32.857147" />
   <use x="20" y="180" width="450" xmlns:xlink="http://www.w3.org/1999/xlink"
              xlink:href="halasana.svg" xlink:type="simple"
              xlink:actuate="onLoad" height="450" id="use8793"
