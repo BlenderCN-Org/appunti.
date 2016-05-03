@@ -147,52 +147,6 @@ Informazioni basilari:
 - 
 e premere *i* (insert key frame)
 
-===== Scripting - Importare immagini
-
-bpy.ops.import_image.to_plane(files=[{"name":"adho_mukha_svanasana.png", "name":"adho_mukha_svanasana.png"}, {"name":"ashtanga_namaskara.png", "name":"ashtanga_namaskara.png"}, {"name":"ashwa_sanchalanasana.png", "name":"ashwa_sanchalanasana.png"}, {"name":"baddha_konasana.png", "name":"baddha_konasana.png"}, {"name":"balasana.png", "name":"balasana.png"}, {"name":"bhujangasana.png", "name":"bhujangasana.png"}, {"name":"halasana.png", "name":"halasana.png"}], directory="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/asana_yoga/", filter_image=True, filter_movie=True, filter_glob="", size_mode='ABSOLUTE', use_shadeless=True, use_transparency=True, transparency_method='Z_TRANSPARENCY', alpha_mode='PREMUL', relative=False)
-
-Importo le immagini
-
-    bpy.ops.import_image.to_plane(files=[{"name":"adho_mukha_svanasana.png", "name":"adho_mukha_svanasana.png"}, {"name":"ashtanga_namaskara.png", "name":"ashtanga_namaskara.png"}, {"name":"ashwa_sanchalanasana.png", "name":"ashwa_sanchalanasana.png"}, {"name":"baddha_konasana.png", "name":"baddha_konasana.png"}, {"name":"balasana.png", "name":"balasana.png"}, {"name":"bhujangasana.png", "name":"bhujangasana.png"}, {"name":"halasana.png", "name":"halasana.png"}], directory="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/asana_yoga/", filter_image=True, filter_movie=True, filter_glob="", size_mode='ABSOLUTE', use_shadeless=True, use_transparency=True, transparency_method='Z_TRANSPARENCY', alpha_mode='PREMUL', relative=False)
-    
-
-Creo i keyframes (da sistemare le traslazioni)
-bpy.context.scene.frame_current = 0
-bpy.ops.anim.keyframe_insert_menu(type='__ACTIVE__', confirm_success=True)
-bpy.context.scene.frame_current = 20
-bpy.ops.anim.keyframe_insert_menu(type='__ACTIVE__', confirm_success=True)
-bpy.ops.transform.translate(value=(1.77721, 0.00134145, -0.00619175), constraint_axis=(False, False, False), constraint_orientation='GLOBAL', mirror=False, proportional='DISABLED', proportional_edit_falloff='SMOOTH', proportional_size=1)
-
-shift_value = 1.7754
-
-if i != 0 :
-    i += 20
-
-i += 20 # Delme
-bpy.context.scene.frame_current = i
-
-bpy.ops.transform.translate(value=(shift_value, 0, 0))
-
-
-bpy.ops.anim.keyframe_insert_menu(type='__ACTIVE__', confirm_success=True)
-i += 20
-bpy.context.scene.frame_current = i
-bpy.ops.anim.keyframe_insert_menu(type='__ACTIVE__', confirm_success=True)
-
-
-
-
-i = 40
-i += 20
-[grabbing]
-
-bpy.ops.transform.translate(value=(1.7754, 0, 0))
-
-.Lista oggetti selezionati
-    selected_objects = bpy.context.selected_objects
-    print(selected_objects)
-
-bpy.data.objects['pl3'].location = Vector((1.7694915533065796, 1.1, 0.0))
 
 ==== ((Git))
 
