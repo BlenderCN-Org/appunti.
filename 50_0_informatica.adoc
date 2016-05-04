@@ -144,8 +144,13 @@ Informazioni basilari:
 - Cambia il centro di rotazione degli arti con TAB (edit mode), poi G (allinea al nuovo fulcro), poi TAB nuovamente e G per riposizionare l'arto.
 - Nella testa seleziona tutti gli elementi (testa per ultima) e premi crtl+P - object per unire il gruppo
 - Ora portare l'immagin nel punto di partenza del video 
-- 
+ 
 e premere *i* (insert key frame)
+
+===== Gestire testo
+
+    - Aggiungere Testo
+
 
 
 ==== ((Git))
