@@ -85,6 +85,9 @@ def some_uts():
     help(bpy.data.objects)
     list(bpy.data.objects) #lists data objects present in blender file.
     bpy.data.objects['Camera'].location[0] = 0
+    Blender.Scene.GetCurrent().getChildren() # This returns all objects from the current scene.
+    Blender.Object.GetSelected() # which returns selected objects on visible layers in the current scene.
+
 
 
 def create_timeline(secs = [120, 180, 60, 120, 60, 120, 60, 60, 240, 60, 30, 60, 60, 60, 30, 30, 30, 300, 300],

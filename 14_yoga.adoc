@@ -168,6 +168,8 @@ Ecco un elenco delle (((posizioni yoga))) più comuni. Sono riassunte con il seg
 | image:figures/asana_yoga/shavasana.svg[role=right, pdfwidth=5cm] | Savasana è una posizione di rilassamento totale, quindi anche una delle asana più impegnative. | 300 
 |===
 
+https://youtu.be/XeLiB6aG5IE
+
 
 .Saluto al sole
 [header=yes, cols="^1,2"]

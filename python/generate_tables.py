@@ -5,6 +5,27 @@ Created on Fri Apr 29 23:36:46 2016
 @author: maurizio
 """
 
+import subprocess
+import os.path
+
+
+def create_minivideo(image_file, time_in_secs, video_file):
+    subprocess.call(['avconv','-loop', '1', 
+                    '-i' ,image_file, 
+                    '-t', '{}s'.format(time_in_secs), 
+                    '-c:v', 'libx264', '-preset', 'ultrafast', '-tune', 'film', '-s', '1280x720', '-c:a', 'copy', 
+                    video_file])
+
+
+def create_video(images, secs, out_dir, out_video_file):
+    video_index = 0 
+    for scene in range(len(secs)):
+        outfile = os.path.join(out_dir,'vid{:02d}.mkv'.format(video_index))
+        video_index += 1
+        create_minivideo(images[scene], secs[scene],outfile )
+    
+    
+
 def find_description(body,title):
     pos = body.find(title)
     if pos >-1:
@@ -69,10 +90,36 @@ def generate_srt_text(images, descs, secs, transition=1):
         act_time+=secs[i]
     return srt_text
 
-    
+titolo = 'yoga1'
+orig_dir =  '/home/maurizio/GitBook/Library/maoz75/gli-appunti/'
+adoc_file = os.path.join(orig_dir,'14_yoga.adoc')
+img_dir = os.path.join(orig_dir, 'figures/asana_yoga/')
+out_dir = "/tmp/av"
+srt_file = os.path.join(out_dir, "{}.srt".format(titolo))
+out_video_file = os.path.join(out_dir, "{}.flv".format(titolo))
+
+
+
 images, descs, secs = generate_table()
-print(images, descs, secs )
-print generate_srt_text(images, descs, secs)
+
+# generation of SRT file
+f = open(srt_file, 'w')
+f.write(generate_srt_text(images, descs, secs))
+f.close()
+
+images_files = []
+convert_file = lambda x: os.path.join(img_dir,'{}.jpg'.format(x))
+for img in images:
+    images_files.append(convert_file(img))
+print(images_files)
+
+create_video(images_files, secs, out_dir, out_video_file)
+
+"""
+/home/maurizio/SW/ffmpeg/ffmpeg -f concat -i <(for f in ./*.mkv; do echo "file '$PWD/$f'"; done) -c copy output.mkv
+"""
+
+
 
 
         
