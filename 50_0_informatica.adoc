@@ -217,7 +217,23 @@ convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
 |===
 
 
+===== MKVToolNix
+
+You first have to import my public GPG key because all of my pools are signed. Run this once: 
+
+    wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -
  
+
+===== SOX
+
+Crea un file vuoto di 2 secondi
+
+    sox -n -r 44100 -c 2 /tmp/silence.wav trim 0.0 2
+
+Mergia più files con 2 secondi di pausa
+
+    sox $(for f in *.wav; do echo -n "$f /tmp/silence.wav "; done) output.wav
+
 
 === Python
 

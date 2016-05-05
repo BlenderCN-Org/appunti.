@@ -2766,6 +2766,7 @@ rowsep="1" colsep="1"
 </tbody>
 </tgroup>
 </table>
+<simpara><ulink url="https://youtu.be/XeLiB6aG5IE">https://youtu.be/XeLiB6aG5IE</ulink></simpara>
 <table
 frame="all"
 rowsep="1" colsep="1"
@@ -6821,7 +6822,9 @@ test pdf working
 </section>
 <section id="_indexterm_primary_ffmpeg_primary_indexterm_ffmpeg_indexterm_primary_avconv_primary_indexterm_avconv">
 <title><indexterm><primary>FFMPEG</primary></indexterm>FFMPEG <indexterm><primary>AVCONV</primary></indexterm>AVCONV</title>
-<formalpara><title>Eliminare una traccia audio <footnote><simpara>fonte: <ulink url="http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file">http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file</ulink></simpara></footnote></title><para>First run</para></formalpara>
+<section id="_eliminare_una_traccia_audio_footnote_simpara_fonte_ulink_url_http_unix_stackexchange_com_questions_6402_how_to_remove_an_audio_track_from_an_mp4_video_file_http_unix_stackexchange_com_questions_6402_how_to_remove_an_audio_track_from_an_mp4_video_file_ulink_simpara_footnote">
+<title>Eliminare una traccia audio <footnote><simpara>fonte: <ulink url="http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file">http://unix.stackexchange.com/questions/6402/how-to-remove-an-audio-track-from-an-mp4-video-file</ulink></simpara></footnote></title>
+<simpara>First run</simpara>
 <literallayout class="monospaced">ffmpeg -i file.mp4</literallayout>
 <literallayout class="monospaced">Stream #0.0: Video: mpeg4, yuv420p, 720x304 [PAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
 Stream #0.1: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
@@ -6830,6 +6833,28 @@ Stream #0.2: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s</literallayout>
 <literallayout class="monospaced">avconv -i file.mp4 -map 0:0 -map 0:2 -acodec copy -vcodec copy new_file.mp4</literallayout>
 <simpara>Per convertire dal formato <indexterm><primary>yuv</primary></indexterm>yuv</simpara>
 <literallayout class="monospaced">avconv -f rawvideo -pix_fmt yuv420p -s 1280x720 -i test4.yuv -i 01_mic_mmp_nel_cast_felici.ogg' test4.avi</literallayout>
+</section>
+<section id="_creare_un_video_da_immagini">
+<title>Creare un video da immagini</title>
+<simpara>Crea out.flv della durata di 10 secondi da un&#8217;unica immagine</simpara>
+<literallayout class="monospaced">avconv -loop 1 -i img000.jpg -t 10s out.flv</literallayout>
+<simpara>Per più immagini</simpara>
+<literallayout class="monospaced">avconv -r 10 -start_number 8 -i filename_%d.png -b:v 1000k test.mp4</literallayout>
+<simpara>Senza <emphasis>-start_number 8</emphasis> parte di default da 0</simpara>
+</section>
+<section id="_codec_h264">
+<title>Codec H264</title>
+<literallayout class="monospaced">    ffmpeg -i input -c:v libx264 -crf 23 -preset medium -c:a libfdk_aac -vbr 4 movflags +faststart -vf scale=-2:720,format=yuv420p output.mp4
+-crf: Quality. Range is logarithmic 0 (lossless) to 51 (worst quality). Default is 23. Subjective sane range is ~18-28 or so. Use the highest value that still gives you an acceptable quality. If you are re-encoding impractically large inputs to upload to YouTube or similar then try a value of 18 since these video services will re-encode anyway.
+-preset: Encoding speed. A slower preset provides better compression (quality per file size) but is slower. Use the slowest that you have patience for: ultrafast, superfast, veryfast, faster, fast, medium (the default), slow, slower, veryslow.
+-movflags +faststart: Allows video to playback before it is completely downloaded in the case of progressive download viewing. Useful if you are hosting the video, otherwise superfluous if uploading to a video service like YouTube.
+-vf scale=-2:720,format=yuv420p: A filtergraph using scale and format video filters. Scale to 720 pixels in height, and automatically choose width that will preserve aspect, and then make sure the pixel format is compatible with dumb players.
+-vbr 4: Audio quality for libfdk_aac AAC encoder. Range is 1-5. Higher value is higher quality.</literallayout>
+</section>
+<section id="_concatenare_più_files">
+<title>Concatenare più files</title>
+<literallayout class="monospaced">avconv -i filename_%d.flv -c copy output.flv</literallayout>
+</section>
 </section>
 <section id="_indexterm_primary_blender_primary_indexterm_blender">
 <title><indexterm><primary>Blender</primary></indexterm>Blender</title>
@@ -6952,11 +6977,30 @@ Nella testa seleziona tutti gli elementi (testa per ultima) e premi crtl+P - obj
 <listitem>
 <simpara>
 Ora portare l&#8217;immagin nel punto di partenza del video
--
-e premere <emphasis role="strong">i</emphasis> (insert key frame)
 </simpara>
 </listitem>
 </itemizedlist>
+<simpara>e premere <emphasis role="strong">i</emphasis> (insert key frame)</simpara>
+</section>
+<section id="_rendering_footnote_simpara_ulink_url_http_www_blenderguru_com_articles_4_easy_ways_to_speed_up_cycles_http_www_blenderguru_com_articles_4_easy_ways_to_speed_up_cycles_ulink_simpara_footnote">
+<title>Rendering <footnote><simpara><ulink url="http://www.blenderguru.com/articles/4-easy-ways-to-speed-up-cycles/">http://www.blenderguru.com/articles/4-easy-ways-to-speed-up-cycles/</ulink></simpara></footnote></title>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>
+Switch to GPU rendering &#8594; File&gt;User Preferences&gt;System
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Reduce the amount of bounces
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+The optimal tile size for GPU is 256 x 256. For CPU it’s 16 x 16. And if those don’t work for you, try to keep it in the power of 2s (eg. 128, 256, 512, 1024), as the processor handles these faster.
+</simpara>
+</listitem>
+</orderedlist>
 </section>
 </section>
 <section id="_indexterm_primary_git_primary_indexterm_git">
@@ -7356,9 +7400,11 @@ rimonta fstab. così si può testare che vada tutto bene.
 </calloutlist>
 </section>
 </section>
-<section id="_svg_file_batch_conversion">
-<title>SVG File batch conversion</title>
-<simpara>for i in *.svg; do inkscape $i -d=300 -e <literal>echo $i | sed -e 's/svg$/png/'</literal>; done</simpara>
+<section id="_svg_file_batch_conversion_to_png_and_svg">
+<title>SVG File batch conversion to png and svg</title>
+<simpara>for i in *.svg; do inkscape $i -d=900 -e <literal>echo $i | sed -e 's/svg$/png/'</literal>; done
+for i in *.png; do convert <literal>echo $i | sed -e 's/png$/jpg/'</literal>; done</simpara>
+<simpara>for i in _base_movies.svg; do inkscape $i -d=300 -e <literal>echo $i | sed -e 's/svg$/png/'</literal>; done</simpara>
 </section>
 <section id="_torrent_transmission">
 <title>Torrent, Transmission</title>
