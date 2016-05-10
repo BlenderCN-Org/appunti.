@@ -44,6 +44,11 @@ broadcast 192.168.1.255
 gateway 192.168.1.yy
 -----
 
+per riavviare scheda rete (da testare)
+rfkill lista all
+rfkill unblock all
+
+
 === ((Mappare disco rete in Linux))
 
 Montare Creare la cartella cha farà da mountpoint
@@ -197,6 +202,15 @@ Per testare i files:
 
 http://INDIRIZZO-IP-SERVER:8200
 
+
+=== ((Simple Google TTS))
+
+    sudo apt-get install git xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
+
+    git clone https://github.com/Glutanimate/simple-google-tts.git
+
+    ./simple-google-tts -h #aiuto
+
 === ((Midi))
 
     sudo apt-get install fluidsynth
@@ -332,10 +346,12 @@ sudo mount -a <2>
 
 
 
-=== SVG File batch conversion
+=== SVG File batch conversion to png and svg
 
-for i in *.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
+for i in *.svg; do inkscape $i -d=900 -e `echo $i | sed -e 's/svg$/png/'`; done
+for i in *.png; do convert `echo $i | sed -e 's/png$/jpg/'`; done
     
+for i in _base_movies.svg; do inkscape $i -d=300 -e `echo $i | sed -e 's/svg$/png/'`; done
 
 === Torrent, Transmission
 
@@ -456,7 +472,7 @@ aggiungere eventuali altre opzioni con il metodo _opzione=valore_
         NB */5 è ogni 5 minuti, solo il 5 è alle 5 di ogni ora
     
 
-===== Versione alternativa
+==== Versione alternativa
 
 
     #Controlla la versione da remoto

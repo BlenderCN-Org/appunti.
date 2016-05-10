@@ -177,6 +177,17 @@ e premere *i* (insert key frame)
 . Reduce the amount of bounces
 . The optimal tile size for GPU is 256 x 256. For CPU it’s 16 x 16. And if those don’t work for you, try to keep it in the power of 2s (eg. 128, 256, 512, 1024), as the processor handles these faster.
 
+===== Video editor
+
+    -FX stip color - nero
+    - *K* taglia la striscia nel punto selezionato
+
+Per esportare 
+
+    Impostare risoluzione
+    Controllare il range
+    Selezionare il fule di output
+    
 
 ==== ((Git))
 

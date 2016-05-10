@@ -5,6 +5,19 @@ Created on Fri Apr 29 23:36:46 2016
 @author: maurizio
 """
 
+
+
+
+
+
+# ---------------------------------------------- Step 1 Extraction of the sequence
+
+
+# ---------------------------------------------- End Steps - Summary
+
+def z_whole sequence
+
+
 import os
 import time
 try:

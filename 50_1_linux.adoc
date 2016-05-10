@@ -44,6 +44,12 @@ broadcast 192.168.1.255
 gateway 192.168.1.yy
 -----
 
+per riavviare scheda rete (da testare)
+
+    rfkill list all
+    rfkill unblock all
+
+
 === ((Mappare disco rete in Linux))
 
 Montare Creare la cartella cha farà da mountpoint
@@ -196,6 +202,15 @@ Add as many media directories as you need. Change names of drives as needed.
 Per testare i files:
 
 http://INDIRIZZO-IP-SERVER:8200
+
+
+=== ((Simple Google TTS))
+
+    sudo apt-get install git xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
+
+    git clone https://github.com/Glutanimate/simple-google-tts.git
+
+    ./simple-google-tts -h #aiuto
 
 === ((Midi))
 
