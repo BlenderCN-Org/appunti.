@@ -7002,6 +7002,15 @@ The optimal tile size for GPU is 256 x 256. For CPU it’s 16 x 16. And if those
 </listitem>
 </orderedlist>
 </section>
+<section id="_video_editor">
+<title>Video editor</title>
+<literallayout class="monospaced">-FX stip color - nero
+- *K* taglia la striscia nel punto selezionato</literallayout>
+<simpara>Per esportare</simpara>
+<literallayout class="monospaced">Impostare risoluzione
+Controllare il range
+Selezionare il fule di output</literallayout>
+</section>
 </section>
 <section id="_indexterm_primary_git_primary_indexterm_git">
 <title><indexterm><primary>Git</primary></indexterm>Git</title>
@@ -7065,6 +7074,18 @@ rowsep="1" colsep="1"
 </tbody>
 </tgroup>
 </table>
+<section id="_mkvtoolnix">
+<title>MKVToolNix</title>
+<simpara>You first have to import my public GPG key because all of my pools are signed. Run this once:</simpara>
+<literallayout class="monospaced">wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -</literallayout>
+</section>
+<section id="_sox">
+<title>SOX</title>
+<simpara>Crea un file vuoto di 2 secondi</simpara>
+<literallayout class="monospaced">sox -n -r 44100 -c 2 /tmp/silence.wav trim 0.0 2</literallayout>
+<simpara>Mergia più files con 2 secondi di pausa</simpara>
+<literallayout class="monospaced">sox $(for f in *.wav; do echo -n "$f /tmp/silence.wav "; done) output.wav</literallayout>
+</section>
 </section>
 <section id="_python">
 <title>Python</title>
@@ -7124,6 +7145,9 @@ netmask 255.255.255.0
 network 192.168.0.0
 broadcast 192.168.1.255
 gateway 192.168.1.yy</screen>
+<simpara>per riavviare scheda rete (da testare)</simpara>
+<literallayout class="monospaced">rfkill list all
+rfkill unblock all</literallayout>
 </section>
 <section id="_indexterm_primary_mappare_disco_rete_in_linux_primary_indexterm_mappare_disco_rete_in_linux">
 <title><indexterm><primary>Mappare disco rete in Linux</primary></indexterm>Mappare disco rete in Linux</title>
@@ -7287,6 +7311,12 @@ sudo service minidlna force-reload
 cat /var/log/minidlna.log</literallayout>
 <simpara>Per testare i files:</simpara>
 <simpara><ulink url="http://INDIRIZZO-IP-SERVER:8200">http://INDIRIZZO-IP-SERVER:8200</ulink></simpara>
+</section>
+<section id="_indexterm_primary_simple_google_tts_primary_indexterm_simple_google_tts">
+<title><indexterm><primary>Simple Google TTS</primary></indexterm>Simple Google TTS</title>
+<literallayout class="monospaced">sudo apt-get install git xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3</literallayout>
+<literallayout class="monospaced">git clone https://github.com/Glutanimate/simple-google-tts.git</literallayout>
+<literallayout class="monospaced">./simple-google-tts -h #aiuto</literallayout>
 </section>
 <section id="_indexterm_primary_midi_primary_indexterm_midi">
 <title><indexterm><primary>Midi</primary></indexterm>Midi</title>
