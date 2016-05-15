@@ -8,7 +8,7 @@
 .. link:15_esercizi_palestra.adoc[Palestra]
 .. link:16_calisthenics.adoc[Calisthennics]
 .. link:20_stretching.adoc[Stretching]
-.. link:21_posturali.adoc[Postura]
+.. link:21_posturali.adoc[Posturali]
 . link:30_salute.adoc[Salute]
 . link:40_1_canto.adoc[Canto]
 . link:40_2_musica.adoc[Musica]
