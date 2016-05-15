@@ -214,7 +214,7 @@ Convertire un psd mmyk in rgb per editing con GIMP
 
 convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
 
-=== ((Inkscape))
+==== ((Inkscape))
 
 .Scorciatoie
 |===
@@ -228,14 +228,14 @@ convert input.psd -channel RGBA -alpha Set -colorspace rgb output.png
 |===
 
 
-===== MKVToolNix
+==== MKVToolNix
 
 You first have to import my public GPG key because all of my pools are signed. Run this once: 
 
     wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -
  
 
-===== SOX
+==== SOX
 
 Crea un file vuoto di 2 secondi
 
