@@ -47,12 +47,15 @@ def generate_table(txt_commands="vajrasana 120, shashankasana 180, adho_mukha_sv
             long_names.append('Cambia')
             secs.append(int(sec))
     adoc_table += "|===\n"
+    print adoc_table
     return images, descs, long_names, secs
 
 def generate_simple_table(txt_commands="arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2", 
-                   orig_imgs="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"):
+                   orig_imgs="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"
+                   ext=".png"):
     listed_table = txt_commands.split(', ')
-    adoc_table = """.Tabella
+    adoc_table = """
+    .Tabella
     [header=yes, cols="^1,2,1"]
     |===
     | Posizione | Descrizione | Secondi
@@ -71,13 +74,14 @@ def generate_simple_table(txt_commands="arco_plantare 20x2, gambe_posteriore 20x
         images.append(image)
         descs.append(desc)
         secs.append(int(sec))
-        adoc_table += "| image:figures/asana_yoga/{}.svg[role=right, pdfwidth=5cm] | {} | {} \n".format(image, desc, sec)
+        adoc_table += "| image:figures/asana_yoga/{}{}[role=right, pdfwidth=5cm] | {} | {} \n".format(image, desc, sec,ext)
         for i in range(times-1):
-            adoc_table += "| image:figures/asana_yoga/{}.svg[role=right, pdfwidth=5cm] | altro lato | {} \n".format(image, sec)
+            adoc_table += "| image:figures/asana_yoga/{}{}[role=right, pdfwidth=5cm] | altro lato | {} \n".format(image, sec, ext)
             images.append(image)
             descs.append('Cambia Lato')
             secs.append(int(sec))
     adoc_table += "|===\n"
+    print adoc_table
     return images, descs, secs
 
 
