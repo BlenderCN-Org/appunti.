@@ -48,7 +48,39 @@ def generate_table(txt_commands="vajrasana 120, shashankasana 180, adho_mukha_sv
             secs.append(int(sec))
     adoc_table += "|===\n"
     return images, descs, long_names, secs
-    
+
+def generate_simple_table(txt_commands="arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2", 
+                   orig_imgs="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"):
+    listed_table = txt_commands.split(', ')
+    adoc_table = """.Tabella
+    [header=yes, cols="^1,2,1"]
+    |===
+    | Posizione | Descrizione | Secondi
+    """
+    images=[]
+    secs=[]
+    descs=[]
+    for elem in listed_table:
+        image, sec = elem.split(' ')
+        desc = image.replace('_', ' ')
+        pos_x = sec.find('x') # -1 not found
+        times = 0 
+        if pos_x > -1:
+            times = int(sec[pos_x+1:])
+            sec = sec[0:pos_x]
+        images.append(image)
+        descs.append(desc)
+        secs.append(int(sec))
+        adoc_table += "| image:figures/asana_yoga/{}.svg[role=right, pdfwidth=5cm] | {} | {} \n".format(image, desc, sec)
+        for i in range(times-1):
+            adoc_table += "| image:figures/asana_yoga/{}.svg[role=right, pdfwidth=5cm] | altro lato | {} \n".format(image, sec)
+            images.append(image)
+            descs.append('Cambia Lato')
+            secs.append(int(sec))
+    adoc_table += "|===\n"
+    return images, descs, secs
+
+
 def find_description(body,title):
     pos = body.find(title)
     if pos >-1:
@@ -134,6 +166,8 @@ def put_sounds_on_sequencer(sounds, folder, secs):
 
 
 
+
+
 # ---------------------------------------------- End Steps - Summary
 
 try:
@@ -146,7 +180,7 @@ import os.path
 
   
 
-def z_whole_sequence(title='yoga1'):
+def z_whole_sequence_yoga(title='yoga1'):
     # initiate variables
     orig_dir =  "/home/maurizio/GitBook/Library/maoz75/gli-appunti/"
     img_dir = os.path.join(orig_dir, "figures/asana_yoga/")
@@ -155,6 +189,37 @@ def z_whole_sequence(title='yoga1'):
     adoc_file = os.path.join(orig_dir,'14_yoga.adoc')
     txt_commands="vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300"
     images, descs, long_names, secs = generate_table(txt_commands, adoc_file)
+    # generation of SRT file
+    srt_file = os.path.join(out_dir, "{}.srt".format(title))
+    f = open(srt_file, 'w')
+    f.write(generate_srt_text(images, descs, secs))
+    f.close()
+    # inserting in blender images and sounds
+    # generate doings
+    snd_dir="/home/maurizio/Downloads/Audio/"
+    sounds_files=[]
+    for i in range(len(secs)-1):
+        sounds_files.append("chalk.wav")
+    sounds_files.append("3h_relax.m4a")
+    bpy.context.area.type = 'SEQUENCE_EDITOR'
+    put_sounds_on_sequencer(sounds_files, snd_dir, secs)
+    put_images_on_sequencer(images,img_dir,secs)
+    # bpy.context.area.type = 'CONSOLE'
+    
+def z_whole_sequence_stretching(title='stretching_running'):
+    # Step 1 
+    body = """Corpo dell' ADOC"""
+    img_dir = "/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"
+    seq = "arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2"
+    # initiate variables
+    orig_dir =  "/home/maurizio/GitBook/Library/maoz75/gli-appunti/"
+    img_dir = os.path.join(orig_dir, "figures/stretching/")
+    out_dir = "/tmp/av"
+    # generation of tables
+    adoc_file = os.path.join(orig_dir,'14_yoga.adoc')
+    txt_commands="vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300"
+    images, descs, long_names, secs = generate_table(txt_commands, adoc_file)
+    
     # generation of SRT file
     srt_file = os.path.join(out_dir, "{}.srt".format(title))
     f = open(srt_file, 'w')
