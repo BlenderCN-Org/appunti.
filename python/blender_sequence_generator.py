@@ -131,6 +131,26 @@ def generate_srt_text(images, descs, secs, transition=1):
     return srt_text
 
 # ---------------------------------------------- Step 3 Get Images list
+def create_scene(name="Scena_A"):
+    bpy.ops.object.camera_add(view_align=True, enter_editmode=False, location=(0, 0, 4), rotation=(0, 0, 0), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Camera_A"    
+    bpy.ops.object.lamp_add(type='POINT', radius=1, view_align=False, location=(0, 0, 4), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Punto_Luce_A"
+    bpy.ops.mesh.primitive_plane_add(radius=1, view_align=False, enter_editmode=False, location=(0, 0, 0), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Piano_A"
+    bpy.ops.transform.resize(value=(1.81885, 1.81885, 1.81885), constraint_axis=(True, False, False), constraint_orientation='GLOBAL', mirror=False, proportional='DISABLED', proportional_edit_falloff='SMOOTH', proportional_size=1)
+    bpy.context.space_data.context = 'MATERIAL'
+    bpy.data.objects['Piano_A'].material.new()
+    bpy.context.object.active_material.specular_intensity = 0.1
+    bpy.context.object.active_material.diffuse_intensity = 0.9
+    bpy.context.space_data.context = 'MATERIAL'
+    bpy.context.object.name = "immagine"
+
+
+    
+
+
+
 def get_yoga_files(base_dir="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/asana_yoga/",
                    extension = '.png'):
     raw_list_of_files = os.listdir(base_dir)
@@ -326,7 +346,14 @@ def load_image_list_in_blender(image_list=['vajrasana', 'shashankasana', 'adho_m
         relative=False)
         #filter_image=True, filter_movie=True, filter_glob="", force_reload=True, 
         #use_shadeless=False, use_transparency=True, transparency_method='Z_TRANSPARENCY', alpha_mode='PREMUL', 
-        #relative=False)
+        #relative=False)    
+    filelist=[{"name":"adduttori.png"}]
+    base_dir="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"
+    img1 = bpy.ops.import_image.to_plane(files=filelist,
+        directory=base_dir, 
+        filter_image=True, filter_movie=True, filter_glob="", size_mode='ABSOLUTE', 
+        relative=False)
+
 
 #secs = [120, 180, 60, 120, 60, 120, 60, 60, 240, 60, 30, 60, 60, 60, 30, 30, 30, 300, 300]
 def create_timeline(secs = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
