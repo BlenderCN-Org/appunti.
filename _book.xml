@@ -4056,7 +4056,216 @@ rowsep="1" colsep="1"
 </section>
 <section id="_esercizi_stretching">
 <title>Esercizi stretching</title>
-<section id="_localizzazioni">
+<section id="_esercizi">
+<title>Esercizi</title>
+<variablelist id="arco_plantare">
+<varlistentry>
+<term>
+<indexterm><primary>arco plantare</primary></indexterm>arco plantare
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/arco_plantare.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>gambe_posteriore</primary></indexterm>gambe_posteriore
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/gambe_posteriore.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>popliteo</primary></indexterm>popliteo
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/popliteo.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>adduttori</primary></indexterm>adduttori
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/adduttori.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>quadricipiti</primary></indexterm>quadricipiti
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/quadricipiti.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>anche</primary></indexterm>anche
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/anche.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>base_tronco_e_glutei</primary></indexterm>base_tronco_e_glutei
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/base_tronco_e_glutei.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>dorso</primary></indexterm>dorso
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/dorso.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>collo</primary></indexterm>collo
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/collo.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>pettorali</primary></indexterm>pettorali
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/pettorali.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>spalle</primary></indexterm>spalle
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/spalle.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<indexterm><primary>braccia</primary></indexterm>braccia
+</term>
+<listitem>
+<simpara>
+    <inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/stretching/braccia.png"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject>
+    <emphasis>Esecuzione</emphasis>: Vedere figura.<?asciidoc-br?>
+    <emphasis>Effetti</emphasis>: Fa bene.
+</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+</section>
+<section id="braccia">
 <title>Localizzazioni</title>
 <section id="_testa">
 <title>Testa</title>
@@ -4091,103 +4300,234 @@ rotazione ed estensione dell&#8217;omero per ogni braccio
 </section>
 <section id="_stretching_post_running">
 <title>Stretching post running</title>
-<simpara>Ecco 10 alcuni esercizi proposti da eseguire dopo una sessione di corsa <footnote><simpara>Il riferimento per questa citazione è andato perso, da recuperare. Reference for this citation must still be recovered</simpara></footnote></simpara>
-<informalfigure>
-<mediaobject>
+<simpara>Ecco alcuni esercizi proposti da eseguire dopo una sessione di corsa <footnote><simpara>Il riferimento per questa citazione è andato perso, da recuperare. Reference for this citation must still be recovered</simpara></footnote></simpara>
+<informaltable
+frame="all"
+rowsep="1" colsep="1"
+>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33*"/>
+<colspec colname="col_2" colwidth="33*"/>
+<colspec colname="col_3" colwidth="33*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Posizione</simpara></entry>
+<entry align="left" valign="top"><simpara>Descrizione</simpara></entry>
+<entry align="left" valign="top"><simpara>Secondi <footnote><simpara>arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2</simpara></footnote></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run01_arco_plantare.png"/>
+  <imagedata fileref="figures/asana_yoga/arco_plantare.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run01_arco_plantare.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>arco plantare</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run02_gambe_posteriore.png"/>
+  <imagedata fileref="figures/asana_yoga/arco_plantare.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run02_gambe_posteriore.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run03_popliteo.png"/>
+  <imagedata fileref="figures/asana_yoga/gambe_posteriore.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run03_popliteo.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>gambe posteriore</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run04_adduttori.png"/>
+  <imagedata fileref="figures/asana_yoga/gambe_posteriore.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run04_adduttori.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run05_quadricipiti.png"/>
+  <imagedata fileref="figures/asana_yoga/popliteo.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run05_quadricipiti.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>popliteo</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run06_anche.png"/>
+  <imagedata fileref="figures/asana_yoga/popliteo.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run06_anche.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run07_base_tronco_e_glutei.png"/>
+  <imagedata fileref="figures/asana_yoga/adduttori.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run07_base_tronco_e_glutei.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>adduttori</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run08_dorso.png"/>
+  <imagedata fileref="figures/asana_yoga/adduttori.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run08_dorso.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run09_collo.png"/>
+  <imagedata fileref="figures/asana_yoga/quadricipiti.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run09_collo.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>quadricipiti</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run10_pettorali.png"/>
+  <imagedata fileref="figures/asana_yoga/quadricipiti.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run10_pettorali.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run11_spalle.png"/>
+  <imagedata fileref="figures/asana_yoga/anche.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run11_spalle.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<informalfigure>
-<mediaobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>anche</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
   <imageobject>
-  <imagedata fileref="figures/stretching/run12_baccia.png"/>
+  <imagedata fileref="figures/asana_yoga/anche.svg"/>
   </imageobject>
-  <textobject><phrase>figures/stretching/run12_baccia.png</phrase></textobject>
-</mediaobject>
-</informalfigure>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/base_tronco_e_glutei.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>base tronco e glutei</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/dorso.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>dorso</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/collo.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>collo</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/pettorali.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>pettorali</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/pettorali.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/spalle.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>spalle</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/spalle.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/braccia.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>braccia</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara><inlinemediaobject>
+  <imageobject>
+  <imagedata fileref="figures/asana_yoga/braccia.svg"/>
+  </imageobject>
+  <textobject><phrase>role=right</phrase></textobject>
+</inlinemediaobject></simpara></entry>
+<entry align="left" valign="top"><simpara>altro lato</simpara></entry>
+<entry align="left" valign="top"><simpara>20</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
 </section>
 </section>
 <section id="_esercizi_posturali">
@@ -4924,6 +5264,9 @@ Avoid making threats in a negotiation; they are almost always
 </simpara>
 </listitem>
 </orderedlist>
+<section id="_tecniche_per_negoziare_con_i_bimbi">
+<title>Tecniche per negoziare con i bimbi</title>
+</section>
 </section>
 <section id="_vendita">
 <title>Vendita</title>
@@ -9499,6 +9842,12 @@ Specifici cellulari
 </listitem>
 <listitem>
 <simpara>
+Android
+    Acr call
+</simpara>
+</listitem>
+<listitem>
+<simpara>
 Grafica
 </simpara>
 <itemizedlist>
@@ -9578,7 +9927,7 @@ Backbeat PLantronics
 <simpara>Servono 10000 ore per sostituire un&#8217;abitudine</simpara>
 <simpara>Change - Paul Watzlawick. Su come affrontare il cambiamento.</simpara>
 </section>
-<section id="_esercizi">
+<section id="_esercizi_2">
 <title>Esercizi</title>
 <simpara>Tabata 3X</simpara>
 <orderedlist numeration="arabic">
