@@ -91,12 +91,13 @@
 
 ==== Stretching post running
 
-Ecco alcuni esercizi proposti da eseguire dopo una sessione di corsa footnote:[Il riferimento per questa citazione è andato perso, da recuperare. Reference for this citation must still be recovered]
+Ecco alcuni esercizi proposti da eseguire dopo una sessione di corsa footnote:[Il riferimento per questa citazione è andato perso, da recuperare. Reference for this citation must still be recovered. +
+arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
 
 
 [header=yes, cols="^1,2,1"]
 |===
-| Posizione | Descrizione | Secondi footnote:[arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
+| Posizione | Descrizione | Secondi
 | image:figures/asana_yoga/arco_plantare.svg[role=right, pdfwidth=5cm] | arco plantare | 20 
 | image:figures/asana_yoga/arco_plantare.svg[role=right, pdfwidth=5cm] | altro lato | 20 
 | image:figures/asana_yoga/gambe_posteriore.svg[role=right, pdfwidth=5cm] | gambe posteriore | 20 
