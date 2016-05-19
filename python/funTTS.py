@@ -15,9 +15,8 @@ importlib.reload(blender_tests_sequencer)
 # pip install gTTS
 
 from gtts import gTTS
-tts.save("hello.mp3")
 
+def create_mp3(text=u'Ciao', file_name = 'test.mp3', lang='it'):
+    tts = gTTS(text=text, lang='it')
+    tts.save(file_name)
 
-tts = gTTS(text=u'Ciao a tutti, è una buona giornata!', lang='it')
-
-tts.save("ciao.mp3")

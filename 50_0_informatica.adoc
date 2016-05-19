@@ -103,13 +103,18 @@ First run
     Stream #0.1: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
     Stream #0.2: Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
 
-Per togliere la prima traccia audio
+===== Per togliere la prima traccia audio
 
     avconv -i file.mp4 -map 0:0 -map 0:2 -acodec copy -vcodec copy new_file.mp4
     
-Per convertire dal formato ((yuv))
+===== Per convertire dal formato ((yuv))
     
     avconv -f rawvideo -pix_fmt yuv420p -s 1280x720 -i test4.yuv -i 01_mic_mmp_nel_cast_felici.ogg' test4.avi
+    
+===== Per cambiare SAMPLE rate audio
+
+    ffmpeg -i gesso.wav -ar 24000 gesso.mp3
+
     
 ===== Creare un video da immagini
 

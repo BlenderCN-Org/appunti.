@@ -4,38 +4,39 @@ Created on Fri Apr 29 23:36:46 2016
 
 @author: maurizio
 """
+try:
+    import bpy
+except ImportError:
+    print ('ImportError for bpy')
 
-
-
-# ---------------------------------------------- Step 2 Creation of SRT File
-def generate_srt_text(images, descs, secs, transition=1):
-    """
-    A numeric counter identifying each sequential subtitle
-    The time  (00:00:00,000) that the subtitle should appear on the screen, followed by --> and the time it should disappear
-    Subtitle text itself on one or more lines
-    A blank line containing no text, indicating the end of this subtitle[9]
-    """
-    srt_text = ""
-    act_time = transition
-    for i in range (len(images)):        
-        srt_text+="{:02d}\n00:{:02d}:{:02d},000-->00:{:02d}:{:02d},000\n{}: {}\n\n".format(
-            i+1, 
-            int(act_time/60), act_time%60, 
-            int((act_time+secs[i])/60), (act_time+secs[i])%60, 
-            images[i], descs[i])
-        act_time+=secs[i]
-    return srt_text
+# ---------------------------------------------- Step 3 Get Images list
+def create_scene(name="Scena_A"):
+    bpy.ops.object.camera_add(view_align=True, enter_editmode=False, location=(0, 0, 4), rotation=(0, 0, 0), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Camera_A"    
+    bpy.ops.object.lamp_add(type='POINT', radius=1, view_align=False, location=(0, 0, 4), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Punto_Luce_A"
+    bpy.ops.mesh.primitive_plane_add(radius=1, view_align=False, enter_editmode=False, location=(0, 0, 0), layers=(True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
+    bpy.context.object.name = "Piano_A"
+    bpy.ops.transform.resize(value=(1.81885, 1.81885, 1.81885), constraint_axis=(True, False, False), constraint_orientation='GLOBAL', mirror=False, proportional='DISABLED', proportional_edit_falloff='SMOOTH', proportional_size=1)
+    # bpy.context.space_data.context = 'MATERIAL'
+    bpy.data.objects['Piano_A'].material.new()
+    bpy.context.object.active_material.specular_intensity = 0.1
+    bpy.context.object.active_material.diffuse_intensity = 0.9
+    # bpy.context.space_data.context = 'MATERIAL'
+    bpy.context.object.name = "immagine"
 
 
     
-def ', '(images, folder, secs):
+def put_images_on_sequencer(images, folder, secs):
+    bpy.context.area.type = 'SEQUENCE_EDITOR'
     start= 1
     fps=24
-    image_files = get_yoga_files(folder, extension='.jpg')    
-    for i in range(len(image_files)):
+    for i in range(len(images)):
         stop= start + (fps*secs[i]) # - fps #-fps is to generate overlaps
+        print(images[i])
+        print(folder)
         bpy.ops.sequencer.image_strip_add(
-            directory=folder, files=[{"name":image_files[i]}], 
+            directory=folder, files=[{"name":images[i]}], 
             relative_path=True, show_multiview=False, frame_start=start, frame_end=stop, channel=int((i%3)+1))
         start = stop + 1 #- fps
     
@@ -46,7 +47,7 @@ def put_sounds_on_sequencer(sounds, folder, secs):
         bpy.ops.sequencer.sound_strip_add(filepath=folder, 
                                           files=[{"name":sounds[-1]}], 
                                           relative_path=True, frame_start=start, channel=4)
-        bpy.context.scene.sequence_editor.sequences_all[sounds[-1]].volume = 0.5
+        # ToDo bpy.ops.sequencer.cut(frame=47474, type='SOFT', side='RIGHT')
         fps=24
         for i in range(len(secs)):
             start += (fps*secs[i]) + 1
@@ -58,106 +59,9 @@ def put_sounds_on_sequencer(sounds, folder, secs):
 
 
 
-
-
-
-# ---------------------------------------------- End Steps - Summary
-
-try:
-    import bpy
-except ImportError:
-    print('No BPY')
-
-import os.path
-
-
-  
-
-def z_whole_sequence_yoga(title='yoga1'):
-    # initiate variables
-    orig_dir =  "/home/maurizio/GitBook/Library/maoz75/gli-appunti/"
-    img_dir = os.path.join(orig_dir, "figures/asana_yoga/")
-    out_dir = "/tmp/av"
-    # generation of tables
-    adoc_file = os.path.join(orig_dir,'14_yoga.adoc')
-    txt_commands="vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300"
-    images, descs, long_names, secs = generate_table(txt_commands, adoc_file)
-    # generation of SRT file
-    srt_file = os.path.join(out_dir, "{}.srt".format(title))
-    f = open(srt_file, 'w')
-    f.write(generate_srt_text(images, descs, secs))
-    f.close()
-    # inserting in blender images and sounds
-    # generate doings
-    snd_dir="/home/maurizio/Downloads/Audio/3h_relax.m4a"
-    sounds_files=[]
-    for i in range(len(secs)-1):
-        sounds_files.append("chalk.wav")
-    sounds_files.append("3h_relax.m4a")
-    bpy.context.area.type = 'SEQUENCE_EDITOR'
-    put_sounds_on_sequencer(sounds_files, snd_dir, secs)
-    put_images_on_sequencer(images,img_dir,secs)
-    # bpy.context.area.type = 'CONSOLE'
-    
-def z_whole_sequence_stretching(title='stretching_running'):
-    # Step 1 
-    body = """Corpo dell' ADOC"""
-    img_dir = "/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/stretching/"
-    seq = "arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2"
-    # initiate variables
-    orig_dir =  "/home/maurizio/GitBook/Library/maoz75/gli-appunti/"
-    img_dir = os.path.join(orig_dir, "figures/stretching/")
-    out_dir = "/tmp/av"
-    # generation of tables
-    adoc_file = os.path.join(orig_dir,'14_yoga.adoc')
-    txt_commands="vajrasana 120, shashankasana 180, adho_mukha_svanasana 60, uttanasana 120, baddha_konasana 60, upavishta_konasana 120, janu_sirsasana 60x2, paschimottanasana 240, shavasana 60, halasana 30, sarvangasana 60, utthita_sarvangasana 60x2, karnapidasana 30, halasana 30, shavasana 30, supta_baddha_konasana 300, shavasana 300"
-    images, descs, long_names, secs = generate_table(txt_commands, adoc_file)
-    
-    # generation of SRT file
-    srt_file = os.path.join(out_dir, "{}.srt".format(title))
-    f = open(srt_file, 'w')
-    f.write(generate_srt_text(images, descs, secs))
-    f.close()
-    # inserting in blender images and sounds
-    # generate doings
-    snd_dir="/home/maurizio/Downloads/Audio/"
-    sounds_files=[]
-    for i in range(len(secs)-1):
-        sounds_files.append("chalk.wav")
-    sounds_files.append("3h_relax.m4a")
-    bpy.context.area.type = 'SEQUENCE_EDITOR'
-    put_sounds_on_sequencer(sounds_files, snd_dir, secs)
-    put_images_on_sequencer(images,img_dir,secs)
-    # bpy.context.area.type = 'CONSOLE'
-    
-
-
-    out_video_file = os.path.join(out_dir, "{}.flv".format(title))
-    audio = "/home/maurizio/Downloads/Audio/3h_relax.m4a"
-    pass
-                    
-    
-"""
-sounds_files = ['chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav', 'chalk.wav','3h_relax.m4a']
-secs = [120, 180, 60, 120, 60, 120, 60, 60, 240, 60, 30, 60, 60, 60, 30, 30, 30, 300, 300, 0]
-"""
-    
-    
-    
-
-# ---------------------------------------------- Bibliography
-
-def reload():
+def load_sequence_for_planes(list_of_files):
+    """return list_of_files_for_planes
     """
-    import sys
-    sys.path.append("/home/maurizio/GitBook/Library/maoz75/gli-appunti/python")
-    import blender_tests
-    import importlib
-    importlib.reload(blender_tests)
-    """
-    pass
-    
-def load_sequence(list_of_files):
     list_of_files_for_planes=[]
     for l in list_of_files:
         list_of_files_for_planes.append({'name':l})
@@ -170,8 +74,8 @@ def insert_text(name='Text01', text='Text'):
     bpy.context.scene.objects.link(myFontOb)
     bpy.context.scene.update()    
 
-def select_camera():    
-    bpy.ops.object.select_pattern(pattern="Camera")
+def select_camera(name="Camera"):    
+    bpy.ops.object.select_pattern(pattern=name)
     
 def select_selection():
     return bpy.context.selected_objects
@@ -190,11 +94,12 @@ def some_uts():
     bpy.data.objects['Camera'].location[0] = 0
     Blender.Scene.GetCurrent().getChildren() # This returns all objects from the current scene.
     Blender.Object.GetSelected() # which returns selected objects on visible layers in the current scene.
+    bpy.context.scene.objects.active = obj #attiva l'oggetto richiesto
 
 
 def load_all_in_blender():
     base_dir="/home/maurizio/GitBook/Library/maoz75/gli-appunti/figures/asana_yoga/"
-    sequenza = load_sequence(get_yoga_files(base_dir))
+    #sequenza = load_sequence(get_yoga_files(base_dir))
     bpy.ops.import_image.to_plane(files=sequenza,
         directory=base_dir, 
         filter_image=True, filter_movie=True, filter_glob="", force_reload=True, 

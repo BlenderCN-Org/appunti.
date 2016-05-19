@@ -7,6 +7,7 @@ Created on Fri Apr 29 23:36:46 2016
 
 import subprocess
 import os.path
+import funTTS
 
 
 def create_minivideo(image_file, time_in_secs, video_file):

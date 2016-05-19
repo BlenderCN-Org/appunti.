@@ -10,33 +10,31 @@ v1.0, 160426
 :author: Maurizio Stagni
 :toc: left
 :toclevels: 4
-
-
-////
-:imagesdir: .
-:imagesdir: /home/maurizio/Mao/GDrive/Fitness/MentorBook/
-:encoding: utf-8
-:producer: Asciidoctor
-:toclevels: 3
-:numbered:
-:copyright: CC-BY-SA 3.0
-:imagesdir: images
-
-:sectids!: RImuove l'autogenerazione degli indici
-	Default _ sia prima che al posto degli spazi
+:page-layout: docs
+:page-description: {description}
+:page-keywords: {keywords}
+:toc: left
+:icons: font
 :idprefix:
 :idseparator: -
-Change Book Name, Author's Name and Language for your need.
-toc::[]
-
-////
-
-
+:sectanchors:
+endif::[]
+:experimental:
+:mdash: &#8212;
+:language: asciidoc
+:source-language: {language}
+:table-caption!:
+:example-caption!:
+:figure-caption!:
+:imagesdir: ../images
+:includedir: _includes
 
 
 Questa è l'intestazione del libro vero e proprio
 
 Parte lasciata intenzionalmente bianca
+
+toc::[]
 
 
 
@@ -1343,6 +1341,83 @@ Plank , 35,10
 
 === Esercizi stretching
 
+==== Esercizi
+
+[[arco_plantare]]
+((arco plantare))::
+    image:figures/stretching/arco_plantare.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[gambe_posteriore]]
+((gambe_posteriore))::
+    image:figures/stretching/gambe_posteriore.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+
+[[popliteo]]
+((popliteo))::
+    image:figures/stretching/popliteo.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+
+[[adduttori]]
+((adduttori))::
+    image:figures/stretching/adduttori.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[quadricipiti]]
+((quadricipiti))::
+    image:figures/stretching/quadricipiti.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[anche]]
+((anche))::
+    image:figures/stretching/anche.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[base_tronco_e_glutei]]
+((base_tronco_e_glutei))::
+    image:figures/stretching/base_tronco_e_glutei.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[dorso]]
+((dorso))::
+    image:figures/stretching/dorso.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[collo]]
+((collo))::
+    image:figures/stretching/collo.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[pettorali]]
+((pettorali))::
+    image:figures/stretching/pettorali.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[spalle]]
+((spalle))::
+    image:figures/stretching/spalle.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+[[braccia]]
+((braccia))::
+    image:figures/stretching/braccia.png[role=right]
+    _Esecuzione_: Vedere figura. +
+    _Effetti_: Fa bene.
+
+
 ==== Localizzazioni
 
 ===== Testa
@@ -1355,33 +1430,39 @@ Plank , 35,10
 
 -   rotazione ed estensione dell'omero per ogni braccio
 
-==== Stretching post running
+==== Sequenze
 
-Ecco 10 alcuni esercizi proposti da eseguire dopo una sessione di corsa footnote:[Il riferimento per questa citazione è andato perso, da recuperare. Reference for this citation must still be recovered]
 
-image::figures/stretching/run01_arco_plantare.png[]
+.Post Running footnote:[arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2]
+[header=yes, cols="^1,2,1"]
+|===
+| Posizione | Descrizione | Secondi
+| image:/figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | arco plantare | 20
+| image:/figures/stretching/arco_plantare.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | gambe posteriore | 20
+| image:/figures/stretching/gambe_posteriore.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | popliteo | 20
+| image:/figures/stretching/popliteo.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | adduttori | 20
+| image:/figures/stretching/adduttori.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | quadricipiti | 20
+| image:/figures/stretching/quadricipiti.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/anche.png[role=right, pdfwidth=5cm] | anche | 20
+| image:/figures/stretching/anche.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/base_tronco_e_glutei.png[role=right, pdfwidth=5cm] | base tronco e glutei | 20
+| image:/figures/stretching/dorso.png[role=right, pdfwidth=5cm] | dorso | 20
+| image:/figures/stretching/collo.png[role=right, pdfwidth=5cm] | collo | 20
+| image:/figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | pettorali | 20
+| image:/figures/stretching/pettorali.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/spalle.png[role=right, pdfwidth=5cm] | spalle | 20
+| image:/figures/stretching/spalle.png[role=right, pdfwidth=5cm] | altro lato | 20
+| image:/figures/stretching/braccia.png[role=right, pdfwidth=5cm] | braccia | 20
+| image:/figures/stretching/braccia.png[role=right, pdfwidth=5cm] | altro lato | 20
+|===
 
-image::figures/stretching/run02_gambe_posteriore.png[]
 
-image::figures/stretching/run03_popliteo.png[]
 
-image::figures/stretching/run04_adduttori.png[]
 
-image::figures/stretching/run05_quadricipiti.png[]
-
-image::figures/stretching/run06_anche.png[]
-
-image::figures/stretching/run07_base_tronco_e_glutei.png[]
-
-image::figures/stretching/run08_dorso.png[]
-
-image::figures/stretching/run09_collo.png[]
-
-image::figures/stretching/run10_pettorali.png[]
-
-image::figures/stretching/run11_spalle.png[]
-
-image::figures/stretching/run12_baccia.png[]
 
 
 
@@ -1697,6 +1778,10 @@ Rules for a good negotiation:
 11. Don’t be fooled by superficial appearances, they are meaningless
 12. Avoid making threats in a negotiation; they are almost always
     counter-productive
+
+=== Tecniche per negoziare con i bimbi
+
+
 
 
 == Vendita
@@ -5398,6 +5483,8 @@ http://www.moddingstudio.com/showthread.php?2533-SoftMod-tramite-Free-MC-Boot-(n
     ** Specifici cellulari
         *** http://comebuy.com
 
+* Android
+    Acr call
 * Grafica
     ** Gallerie fotografiche http://www.makeuseof.com/tag/top-linux-photo-software-managing-editing-snaps/
 
