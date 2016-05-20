@@ -184,14 +184,18 @@ e premere *i* (insert key frame)
 
 ===== Video editor
 
-    -FX stip color - nero
-    - *K* taglia la striscia nel punto selezionato
+    - FX stip color - nero
+    - *K* taglia la striscia nel punto selezionato in modo soft SHIFT-K taglio definitivo
+    - nella schermata timeline settare AV-sync, audio scrub, frame drop
 
-Per esportare 
+Settare Blender
 
     Impostare risoluzione
     Controllare il range
     Selezionare il fule di output
+    impostare nelle user preferenses
+        - memory cache limit circa 60% della RAM
+    MAI USARE IL CANALE 0 (preview) PER LE IMPORTAZIONI!
     
 
 ==== ((Git))

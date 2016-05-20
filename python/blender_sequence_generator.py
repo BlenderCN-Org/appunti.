@@ -27,34 +27,6 @@ def generate_srt_text(images, descs, secs, transition=1):
     return srt_text
 
 
-    
-def ', '(images, folder, secs):
-    start= 1
-    fps=24
-    image_files = get_yoga_files(folder, extension='.jpg')    
-    for i in range(len(image_files)):
-        stop= start + (fps*secs[i]) # - fps #-fps is to generate overlaps
-        bpy.ops.sequencer.image_strip_add(
-            directory=folder, files=[{"name":image_files[i]}], 
-            relative_path=True, show_multiview=False, frame_start=start, frame_end=stop, channel=int((i%3)+1))
-        start = stop + 1 #- fps
-    
-
-def put_sounds_on_sequencer(sounds, folder, secs):
-    try:
-        start= 1
-        bpy.ops.sequencer.sound_strip_add(filepath=folder, 
-                                          files=[{"name":sounds[-1]}], 
-                                          relative_path=True, frame_start=start, channel=4)
-        bpy.context.scene.sequence_editor.sequences_all[sounds[-1]].volume = 0.5
-        fps=24
-        for i in range(len(secs)):
-            start += (fps*secs[i]) + 1
-            bpy.ops.sequencer.sound_strip_add(filepath=folder, 
-                                              files=[{"name":sounds[i]}], 
-                                              relative_path=True, frame_start=start, channel=int((i%3)+6))
-    except:
-        print("OOOPS!")
 
 
 

@@ -33,12 +33,14 @@ def _tested():
     base_path = '/home/maurizio/GitBook/Library/maoz75/gli-appunti/' # path 
     orig_imgs="figures/stretching/"
     ext=".png"
+    dest_ext=".jpg"
     out_dir = "/tmp/aaa"
     start_sound="/home/maurizio/Mao/Progetti/Suoni/gesso.mp3"
     background_music="/home/maurizio/Downloads/Audio/3h_relax.m4a"
     orig_svg_dir = os.path.join(base_path,"figures")
     lista_titoli = ['head_titles.svg', 'tail_titles.svg']
     lista_titoli_png = ['head_titles.png', 'tail_titles.png']
+    dest_img_format = '960x720'
     lista_sostituzioni = [
         ['esteso', 'stretching post corsa'],
         #['mau21710', 'nome autore'],
@@ -49,7 +51,7 @@ def _tested():
         ]
     absolute_orig_images = os.path.join(base_path,orig_imgs)
     if not os.path.exists(out_dir):
-        os.makedirs(out_dir,777)
+        subprocess.call(['mkdir', out_dir])  
     # ------------------------------ Generazione Header e Footer
     for l in lista_titoli:
         orig = os.path.join(orig_svg_dir, l)
@@ -65,7 +67,7 @@ def _tested():
             f = open(dest,'w')
             all_svg=f.write(all_svg)
             f.close()    
-            subprocess.call(['convert', '-scale', '1920x1080', dest, dest_png])
+            subprocess.call(['convert', '-scale', dest_img_format, dest, dest_png])
     # --------------------------------------------------------------------------- Genero Tabelle
     images, descs, secs, adoc_table = generate_simple_table(title, txt_commands, orig_imgs, ext)
     # ---------------------------------------------------------------------------- File Audio    
@@ -89,10 +91,18 @@ def _tested():
     secs_full = [10]
     secs_full.extend(secs)
     secs_full.append(10)
-    #create_scene()
-    put_images_on_sequencer(imagefile_names,absolute_orig_images,secs_full)
+    #-------------------------------------- genero i trunk video
+    converted_images=[]
+    for img in imagefile_names:
+        new_name = os.path.join(out_dir,os.path.basename(img)).replace(ext, dest_ext)
+        if not os.path.exists(new_name):
+            subprocess.call(['convert', '-transparent-color', 'white', 
+                                 '-flatten' , '-scale', 
+                                 dest_img_format, os.path.join(absolute_orig_images,img), 
+                                 new_name])
+        converted_images.append(new_name)
+    put_images_on_sequencer(converted_images,"",secs_full)
     put_sounds_on_sequencer(mp3_files,"",secs_full)
-    
     
 
 if __name__ == "__main__":

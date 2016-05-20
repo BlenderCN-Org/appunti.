@@ -58,6 +58,32 @@ def put_sounds_on_sequencer(sounds, folder, secs):
         print("OOOPS!")
 
 
+def put_texts_on_sequencer(texts, secs):
+    try: # non vaaaaaaaaaa!
+        start= 1
+        fps=24
+        for i in range(len(texts)):
+            stop= start + (fps*secs[i]) # - fps #-fps is to generate overlaps
+            print(texts[i])
+            bpy.ops.sequencer.effect_strip_add(filepath="/tmp/aaa/text.txt", frame_start=1, frame_end=10000, channel=11, type='TEXT')
+            start = stop + 1 #- fps
+    except:
+        print("OOOPS! text on sequencer")
+        
+
+def set_movie_setting(filename = '/tmp/video_99.avi'):
+    bpy.ops.sequencer.select(extend=False, linked_handle=False, left_right='NONE', linked_time=False)
+    bpy.context.scene.render.filepath = "/tmp/video_04.avi"
+    bpy.context.scene.file_format = 'XVID'
+    bpy.context.scene.format = 'XVID'
+    bpy.context.scene.audio_codec = 'AAC'
+    bpy.context.scene.audio_codec = 'MP3'
+    bpy.context.scene.audio_bitrate = 192
+    bpy.context.scene.use_audio_scrub = True
+    bpy.context.scene.use_audio_sync = True
+    bpy.context.scene.use_frame_drop = True
+    
+    
 
 def load_sequence_for_planes(list_of_files):
     """return list_of_files_for_planes

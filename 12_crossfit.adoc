@@ -62,14 +62,31 @@ For rookies 7-5-3
 -   Thruster 45 kg
 -   Pull-ups
 
-===== Sidio 150929
+===== Sidio 
+
+.150929
 
 10 minuti snatch per 2 ripetizioni
 
 5 reps:
-* 20 Sit up
-* 10 Deadlift
-* 5 Weighted toes to bar
+     20 Sit up
+     10 Deadlift
+     5 Weighted toes to bar
+
+.16052016 full body
+
+Buy in X3:
+
+    10 indu push up
+    10 reverse crunch
+    10 air squat
+
+Then:
+
+    Every 4' for 20':
+    5 handstand push up
+    10 toes to bar
+    20 alternate pistol squat
 
 
 === Tipologie d'allenamento
@@ -88,6 +105,7 @@ Amrap 4X5'::
  ** Core
   *** *10* Wall Ball
   *** *10* Half burpees
+  
 
 	
 
