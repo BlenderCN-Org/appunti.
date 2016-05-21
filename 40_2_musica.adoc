@@ -41,6 +41,13 @@ Fm (Fa minore) | 1·0·1·3 | 5·5·4·3 | 5·5·8·8 |
 Gm (Sol minore) | 0·2·3·1 | 0·7·6·5 | 0·7·6·10 |
 Am (La minore) | 2·0·0·0 | 2·4·5·0 (Powerchord) | 7·9·8·7 | 
 Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 | 
+C7 (Do7) | 0·0·0·1 |  | | 
+D7 (Re7) | 2·2·2·3 |  | |
+E7 (Mi7) | 4·4·4·2 |  | | 
+F7 (Fa7) | 2·0·1·0 |  | | 
+G7 (Sol7) | 0·2·3·2 | | | 
+A7 (La7) | 2·1·0·0 |  | | 
+B7 (Si7) |  4·3·2·2 | | | 
 |========= 
 
 ==== Esercizi Strumming
@@ -99,6 +106,9 @@ Bm (Si minore) | 4·2·2·2 | 4·6·7·5 | 7·6·7·5 |
 
 ((London Bridge)):: Progressione I V7, Tonalità C +
 4/4 pattern C C G7 C
+
+((Yellow submarine)):: Progressione I7 III VI I7, Tonalità G7 +
+4/4 pattern 4X (G7  C F G7) 2X (C G7 G7 C)
 
 You're my sunshine footnote:[https://youtu.be/dnA3T8uuuoY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: da fare
 
