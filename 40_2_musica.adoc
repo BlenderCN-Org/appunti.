@@ -107,8 +107,11 @@ B7 (Si7) |  4·3·2·2 | | |
 ((London Bridge)):: Progressione I V7, Tonalità C +
 4/4 pattern C C G7 C
 
-((Yellow submarine)):: Progressione I7 III VI I7, Tonalità G7 +
+((yellow submarine)):: Progressione I7 III VI I7, Tonalità G7 +
 4/4 pattern 4X (G7  C F G7) 2X (C G7 G7 C)
+
+((over the rainbow)):: Progressione I IIIm IV I IV III7 VIm IV, Tonalità C +
+4/4 pattern 4X (C Em F C F E7 Am/F) 2X (C G Am F)
 
 You're my sunshine footnote:[https://youtu.be/dnA3T8uuuoY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: da fare
 
