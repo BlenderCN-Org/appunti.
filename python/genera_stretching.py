@@ -6,7 +6,7 @@ Created on Fri Apr 29 23:36:46 2016
 """
 
 import sys
-this_path = '/home/maurizio/GitBook/Library/maoz75/gli-appunti/python/' # path 
+this_path = '/home/maurizio/GitBook/Library/mau21710/gli-appunti/python/' # path 
 sys.path.append(this_path)
 
 import os.path
@@ -30,13 +30,13 @@ except ImportError:
 def _tested():
     title = 'Stretching'
     txt_commands = "arco_plantare 20x2, gambe_posteriore 20x2, popliteo 20x2, adduttori 20x2, quadricipiti 20x2, anche 20x2, base_tronco_e_glutei 20, dorso 20, collo 20, pettorali 20x2, spalle 20x2, braccia 20x2"
-    base_path = '/home/maurizio/GitBook/Library/maoz75/gli-appunti/' # path 
+    base_path = '/home/maurizio/GitBook/Library/mau21710/gli-appunti' # path 
     orig_imgs="figures/stretching/"
     ext=".png"
     dest_ext=".jpg"
     out_dir = "/tmp/aaa"
     start_sound="/home/maurizio/Mao/Progetti/Suoni/gesso.mp3"
-    background_music="/home/maurizio/Downloads/Audio/3h_relax.m4a"
+    background_music="/home/maurizio/Downloads/Audio/relax-ben.mp3"
     orig_svg_dir = os.path.join(base_path,"figures")
     lista_titoli = ['head_titles.svg', 'tail_titles.svg']
     lista_titoli_png = ['head_titles.png', 'tail_titles.png']
