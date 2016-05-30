@@ -204,6 +204,8 @@ Settare Blender
 
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=360000'
+    # Set the cache to timeout after 1 hour (setting is in seconds), 100h
+
     
 installare repository locale
 
@@ -215,7 +217,7 @@ installare repository locale
   cd /dir/to/clone/
   git clone path/above/repo/my-project.git
   git push --set-upstream origin master
-
+  
     
 ==== ((ImageMagik))
 

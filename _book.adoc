@@ -23,7 +23,7 @@ v1.0, 160426
 :copyright: CC-BY-SA 3.0
 :imagesdir: images
 
-:sectids!: RImuove l'autogenerazione degli indici
+:sectids!: Rimuove l'autogenerazione degli indici
 	Default _ sia prima che al posto degli spazi
 :idprefix:
 :idseparator: -
