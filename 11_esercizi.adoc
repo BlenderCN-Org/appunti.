@@ -22,7 +22,7 @@
 
 [[bastard_burpee]]
 ((bastard burpee)):: 
-    image:figures/bastard_burpee.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/bastard_burpee.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((burpee bastardo)). +
     _Esecuzione_: Come il <<burpee, burpee>>, ma con 2 flessioni. +
     _Effetti_: Phisico!.
@@ -30,7 +30,7 @@
 
 [[burpee]]
 ((burpee)):: 
-    image:figures/burpee.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/burpee.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((burpeee)). +
     _Esecuzione_: Il burpee è un esercizio full bodyfootnote:[https://it.wikipedia.org/wiki/Burpee]. Il movimento base si divide in 4 passaggi: +
     0 Partenza in posizione eretta. +
@@ -40,7 +40,50 @@
     4 Si salta dalla posizione di squat verso l'alto +
     _Effetti_: Effetti dell'esercizio.
 
-       
+[[burpee_with_dumbbells]]
+((burpee_with_dumbbells)):: 
+    image:figures/exercises/burpee_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((burpee_with_dumbbells)), + 
+    _Esecuzione_: Eseguire un burpee_with_dumbbells. +
+    _Strumenti_ : dumbbell x 2
+    _Effetti_: fa bene.
+
+
+
+[[clean]]
+((clean)):: 
+    image:figures/exercises/clean.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione del ................)), + 
+    ((posizione del .........)). +
+    _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
+    _Effetti_: Esercizio in 4 step. 
+    . Partenza 
+        ** chinati con le mani che afferrano il bilancere 
+        ** schiena leggermente inarcata.
+        ** peso bilanciato sotto i piedi.
+        ** sguardo in alto
+        ** testa allineata ala schiena
+        ** bilanciere a contatto con gli stinchi
+    . Stacco
+        ** Spingi i piedi contro il terreno, tira indietro le ginocchia perchè il bilanciere muovendosi solo verso l'alto passi, sempre stando vicino al corpo..
+        ** Lo stacco avviene lentamente e culmina in un movimento esplosivo con la piena estensione della schiena.
+        ** Come la barra passa sopra le ginocchia, tieni il peso sui talloniil più possibile e comincia ad estendere le anche avanti
+        ** Quando la barra arriva a mezza altezza, velocemente e con potenza estendi le anche, le ginocchia, le anche, i talloni. +
+        Quando la barra prende inerzia solleva anche le spalle più velocemente possibile.
+        La barra dovrebbe raggiungere la parte alta dei fianchi o del torace.
+    . Atterraggio
+        ** Appena cìè la completa estensione delle anche, porta il corpo sotto la sbarra, atterrando solidamente in front squat con lo sguardo in avanti. +
+        Mentre lo fai ruota i gomiti avanti e sotto la barra, mollando la presa e permettendo ai polsi di girarsi verso l'alto. Fai posare la barra di fronte alle spalle, tra il picco dei deltoidi e la gola
+    . Finale
+        ** una volta che la barra è stabile, lentamente alzati fino alla posizione eretta. Se il peso è molto forte può essere più facile "rimbalzare" dalla posizione di squat senza pausa nella posizione bassa
+    . Abbassate o Mollate il peso in sicurezza
+
+
+((clean varianti)):: 
+    * _((clean press))_: come il clean ma si completa con un push press
+    * _((power clean))_: variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.
+
+
 [[crunch]]
 ((crunch)):: 
     image:figures/crunch.svg[role=right, align=right,  pdfwidth=5cm] +
@@ -74,6 +117,25 @@
     _Sinomimi_: ((movimento da cane a faccia in giù a ponte)). +
     _Esecuzione_: Da Cane faccia in giù fino a ponte faccia all'aria. +
     _Effetti_: Esercizio che coinvolge più fasce.
+
+ 
+[[double_dumbbell]]
+((double_dumbbell)):: 
+    image:figures/exercises/double_dumbbell.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((double dumbbell)), + 
+    _Esecuzione_: Eseguire un double dumbbell. +
+    _Strumenti_ : dumbell x 2 +
+    _Effetti_: fa bene.
+
+
+
+[[front_squat]]
+((front squat)):: 
+    image:figures/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((accosciata con il bilancere appoggiato al petto)), + 
+    _Esecuzione_: Accosciata con il bilanciere appoggiato al petto. +
+    _Effetti_: Effetti dell'asana.
+
 
 [[geko]]
 ((geko)):: 
@@ -141,7 +203,7 @@
     
 [[power_cobra]]
 ((power cobra)):: 
-    image:figures/power_cobra.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/power_cobra.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione del cobra dinamico. +
     _Esecuzione_: Esercizio dinamico che comporta il passare in maniera alternata dalla posizione del cobra a quella accosciata. +
     _Effetti_: Rinforza Core e Spalle.
@@ -149,7 +211,7 @@
 	
 [[pull_up]]
 ((pull up)):: 
-    image:figures/pull_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/pull_up.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((trazioni)). +
     _Esecuzione_: Esercizio di trazioni alla sbarra. Nel crossfit ha un'esecuzione con slancio che permette la realizzazione di più serie. +
     _Effetti_: Riforzo spalle, resistenza alla presa, core.
@@ -160,7 +222,7 @@
     image:figures/exercises/push_up.svg[role=right, align=right,  pdfwidth=5cm] +
 	_Sinonimi_: ((flessione)) +
 	_Esecuzione_: Esercizio che si esegue partendo dalla posizione di <<plank, plank>>, flettendo e distendendo le braccia +
-	_Effetti_: Effetti dell'esercizio.
+	_Effetti_: Pettorali.
 
 	Varianti:::
 	** *((Around the clock push up))*
@@ -174,12 +236,31 @@
 	** *((Stella marina))*: Dalla posizione di push up bassa a mani strette passare a quella a mani e piedi larghe con tre o quattro balzelli
     
 
+
+[[renegade]]
+((renegade))::
+    image:figures/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
+	_Sinonimi_: ((remata in plank)) +
+    _Esecuzione_: <<plank, plank>> remando con due pesi +
+    _Effetti_: Muscoli.
+
+
 [[reverse_crunch]]
 ((reverse crunch)):: 
     image:figures/exercises/reverse_crunch.png[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((addominale inverso)). +
     _Esecuzione_: Eseguire un addominale inverso. +
     _Effetti_: Resistenza, core.
+
+
+((rollata))::
+	_Sinonimi_: Roll up
+	
+	Varianti:::
+	
+	*** Rollata e jump: Rollata su tappetino e jump
+
+((rollè alto)):: Quadrupedia, le ginocchia non toccano terra. Rolle su braccio sinistro e gamba destra. Ruotare fino ad avere il torso in alto e toccare il piede in alto con la mano libera.
 
     
 [[run_in_place]]
@@ -188,6 +269,16 @@
     _Sinomimi_: ((corsa sul posto)), ((high knees running)). +
     _Esecuzione_: Eseguire una corsa sul posto. +
     _Effetti_: Resistenza.
+
+
+	
+[[single_up]]
+((single up)):: 
+    image:figures/exercises/single_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((salto della corda)) +
+    _Strumenti_ : corda
+    _Esecuzione_: Saltare la corda. +
+    _Effetti_: agilità, polpacci.
 
 
 [[sit_up]]
@@ -246,82 +337,20 @@
     _Effetti_: benefici quadricipiti.
 
     
-
-((rollata))::
-	_Sinonimi_: Roll up
-	
-	Varianti:::
-	
-	*** Rollata e jump: Rollata su tappetino e jump
-
-((rollè alto)):: Quadrupedia, le ginocchia non toccano terra. Rolle su braccio sinistro e gamba destra. Ruotare fino ad avere il torso in alto e toccare il piede in alto con la mano libera.
-
-		
-=== Con ((Bilanciere)) (((barbell)))
-
-Seguono descrizioni di esercizi da fare con il bilanciere
-
-.modello esercizio
-[[clean]]
-((clean)):: 
-    image:figures/clean.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione del ................)), + 
-    ((posizione del .........)). +
-    _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    _Effetti_: Esercizio in 4 step. 
-    . Partenza 
-        ** chinati con le mani che afferrano il bilancere 
-        ** schiena leggermente inarcata.
-        ** peso bilanciato sotto i piedi.
-        ** sguardo in alto
-        ** testa allineata ala schiena
-        ** bilanciere a contatto con gli stinchi
-    . Stacco
-        ** Spingi i piedi contro il terreno, tira indietro le ginocchia perchè il bilanciere muovendosi solo verso l'alto passi, sempre stando vicino al corpo..
-        ** Lo stacco avviene lentamente e culmina in un movimento esplosivo con la piena estensione della schiena.
-        ** Come la barra passa sopra le ginocchia, tieni il peso sui talloniil più possibile e comincia ad estendere le anche avanti
-        ** Quando la barra arriva a mezza altezza, velocemente e con potenza estendi le anche, le ginocchia, le anche, i talloni. +
-        Quando la barra prende inerzia solleva anche le spalle più velocemente possibile.
-        La barra dovrebbe raggiungere la parte alta dei fianchi o del torace.
-    . Atterraggio
-        ** Appena cìè la completa estensione delle anche, porta il corpo sotto la sbarra, atterrando solidamente in front squat con lo sguardo in avanti. +
-        Mentre lo fai ruota i gomiti avanti e sotto la barra, mollando la presa e permettendo ai polsi di girarsi verso l'alto. Fai posare la barra di fronte alle spalle, tra il picco dei deltoidi e la gola
-    . Finale
-        ** una volta che la barra è stabile, lentamente alzati fino alla posizione eretta. Se il peso è molto forte può essere più facile "rimbalzare" dalla posizione di squat senza pausa nella posizione bassa
-    . Abbassate o Mollate il peso in sicurezza
-
-
-((clean varianti)):: 
-    * _((clean press))_: come il clean ma si completa con un push press
-    * _((power clean))_: variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.
-
-
-[[front_squat]]
-((front squat)):: 
-    image:figures/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((accosciata con il bilancere appoggiato al petto)), + 
-    _Esecuzione_: Accosciata con il bilanciere appoggiato al petto. +
-    _Effetti_: Effetti dell'asana.
-    
-
-[[renegade]]
-((renegade))::
-    image:figures/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
-	_Sinonimi_: ((remata in plank)) +
-    _Esecuzione_: <<plank, plank>> remando con due pesi +
-    _Effetti_: Muscoli.
+  
 
 	
+
+
 
 .modello esercizio
 [[nome]]
 ((nome)):: 
     image:figures/exercises/nome.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione del ................)), + 
-    ((posizione del .........)). +
-    _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    _Effetti_: Effetti dell'esercizio.
-nome
+    _Sinomimi_: ((nome)), + 
+    _Esecuzione_: Eseguire un nome. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
 
 
 .Esercizi aggiuntivi:
@@ -364,7 +393,21 @@ nome
 |===
 
 
+=== Sequenze
 
+=== Circuito MMA 
 
+    Durata: 30'
+    Necessari: barra, corda, dumbbell x 2 
+
+    AMRAP(push ups x 20, dips X 10, pullups x 5, single up x 50)
+    1 minute stop
+    AMRAP(double dumbbell x 10, burpees with dumbbell x 10, burpees, x 10)
+    1 minute stop
+    AMRAP(high knees x 10, mountain climber x 10, jumping jack x 10, tuck jumps x 10)
+    1 minute stop
+    AMRAP(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+    1 minute stop
+    AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
