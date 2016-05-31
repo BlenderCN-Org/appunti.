@@ -144,10 +144,18 @@
 	_Esecuzione_: Quadrupedia, le ginocchia non toccano terra. Estendi braccio sinistro e gamba destra e viceversa. +
 	_Effetti_: Effetti dell'esercizio.
 
-	
+
+[[high_knees]]
+((high_knees)):: 
+    image:figures/exercises/high_knees.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((high_knees)), + 
+    _Esecuzione_: Eseguire una corsa sul posto con le ginocchia alte. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
 [[hip_escape]]
 ((hip escape)):: 
-    image:figures/hip_escape.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/hip_escape.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((anche in fuga)). +
     _Esecuzione_: Quattro zampe, ginocchia vicine a terra. Far uscire la gamba sx dal lato destro vicina al terreno tenendo le ginocchia del dx vicine a terra. +
     _Effetti_: benefici al core e alla mobilitazione dell'anca.
@@ -155,7 +163,7 @@
 
 [[jumping_jack]]
 ((jumping jack)):: 
-    image:figures/jumping_jack.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/jumping_jack.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione del ................)), + 
     ((posizione del .........)). +
     _Esecuzione_: Esercizio che coinvolge gambe e un pò tutto il resto. +
@@ -171,8 +179,9 @@
     
 [[mountain_climber]]
 ((mountain climber)):: 
-    image:figures/mountain_climber.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/mountain_climber.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((arrampicatore)). +
+    _Strumenti_ : nessuno +
     _Esecuzione_: dalla posizione di <<plank, plank>> portare alternativamente le ginocchia al petto. +
     _Effetti_: rinforzo del core.
 
@@ -339,12 +348,15 @@
     
   
 
-	
-
+Mancano ToDo	
+ jumping jack x 10, tuck jumps x 10)
+(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
+1 minute stop
+AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
 .modello esercizio
-[[nome]]
+[[high_knees]]
 ((nome)):: 
     image:figures/exercises/nome.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((nome)), + 
