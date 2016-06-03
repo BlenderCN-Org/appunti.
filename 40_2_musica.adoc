@@ -14,12 +14,11 @@ I V vi IV
 |===
 I, ii, iii, IV, V, vi, vii
 C, D, E, F, G, A, B
-FL, G, A, Bb, C, D, E
+F, G, A, Bb, C, D, E
 G, A, B, C, D, E, F#
 A, B, C#, D, E, F#, G#
 D, E, F#, G, A, B, C#
 |===
-
 
 
 === ((Ukulele))
@@ -97,11 +96,16 @@ B7 (Si7) |  4·3·2·2 | | |
 
 === Songs
 
-((A children's lullaby)) footnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I V7, Tonalità C +
+((a children's lullaby)) footnote:[https://youtu.be/XyfPJ6JNlfU?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I V7, Tonalità C +
 4/4 Pattern C G7 C G7
 
-((Amazing Grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
+((amazing grace)) footnote:[https://youtu.be/Zj-xa9sLNyY?list=PLR-lgQYwrszE55v7gWoYm-FsWH5Mps4xW]:: Progressione I I7 IV V7, Tonalità C +
 4/4 pattern C C7 F C/C7 | F C C G7/C
+
+((Blues improvvisation)):: Progressione I, IV, V +
+Tonalità D7 + 
+4/4 pattern D7x16 G7x8 D7x8 A7x4 G7x4 +
+Per assolo: -, 2 5, 3 5, 3 5
 
 ((Fra' Martino)):: *Note* C 
 

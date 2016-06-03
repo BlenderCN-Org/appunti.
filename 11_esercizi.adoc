@@ -41,9 +41,9 @@
     _Effetti_: Effetti dell'esercizio.
 
 [[burpee_with_dumbbells]]
-((burpee_with_dumbbells)):: 
+((burpee with dumbbells)):: 
     image:figures/exercises/burpee_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((burpee_with_dumbbells)), + 
+    _Sinomimi_: ((burpee with dumbbells)), + 
     _Esecuzione_: Eseguire un burpee_with_dumbbells. +
     _Strumenti_ : dumbbell x 2
     _Effetti_: fa bene.
@@ -53,10 +53,9 @@
 [[clean]]
 ((clean)):: 
     image:figures/exercises/clean.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((posizione del ................)), + 
-    ((posizione del .........)). +
+    _Sinomimi_: ((clean)). +
+    _Effetti_: Esercizio in 4 step. +
     _Esecuzione_: Istruzioni per l'esecuzione. Eventuali riferimenti. +
-    _Effetti_: Esercizio in 4 step. 
     . Partenza 
         ** chinati con le mani che afferrano il bilancere 
         ** schiena leggermente inarcata.
@@ -81,7 +80,6 @@
 
 ((clean varianti)):: 
     * _((clean press))_: come il clean ma si completa con un push press
-    * _((power clean))_: variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto.
 
 
 [[crunch]]
@@ -127,6 +125,21 @@
     _Strumenti_ : dumbell x 2 +
     _Effetti_: fa bene.
 
+[[dumbbell_biceps_curl]]
+((dumbbell_biceps_curl)):: 
+    image:figures/exercises/dumbbell_biceps_curl.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((dumbbell_biceps_curl)), + 
+    _Esecuzione_: Eseguire un dumbbell_biceps_curl. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+[[dumbbell_front_raise]]
+((dumbbell_front_raise)):: 
+    image:figures/exercises/dumbbell_front_raise.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((dumbbell_front_raise)), + 
+    _Esecuzione_: Eseguire un dumbbell_front_raise. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
 
 
 [[front_squat]]
@@ -188,10 +201,12 @@
 
 [[plank]]
 ((plank))::
-    ottimo esercizio per il core. Posizione della <<push_up, flessione>> con le braccia tese.
-    
+    image:figures/plank.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((posizione a V)). +
+    _Esecuzione_: Posizione della <<push_up, flessione>> con le braccia tese. +
+    _Strumenti_ : nessuno
+    _Effetti_: ottimo esercizio per il core.
     varianti:::
-    *** ((plank to teaser))
 	*** ((plank walk))
         . Partenza in posizione plank
         . Piego il braccio destro e appoggio il gomito destro al terreno
@@ -207,15 +222,35 @@
     image:figures/plank_to_teaser.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
     _Esecuzione_: Esercizio dinamico che si fa passando dalla posizione di <<plank, plank sui gomiti>> a quella di <<teaser, posizione a V>> +
-    _Effetti_: Effetti dell'esercizio.
+    _Strumenti_ : nessuno
+    _Effetti_: Fa benissimo.
+
+
+[[prisoner_squat]]
+((prisoner_squat)):: 
+    image:figures/exercises/prisoner_squat.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((prisoner_squat)), + 
+    _Esecuzione_: Eseguire un prisoner_squat. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
 
     
+[[power_clean]]
+((power_clean)):: 
+    image:figures/exercises/power_clean.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((power_clean)), + 
+    _Esecuzione_: Eseguire un <<clean>>, ma con variazione del punto 3. ferma la barra a mezzo squat. Questa versione necessita che la barra sia lanciata più in alto. +
+    _Strumenti_ : bilanciere
+    _Effetti_: fa bene.
+
+
 [[power_cobra]]
 ((power cobra)):: 
     image:figures/exercises/power_cobra.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione del cobra dinamico. +
     _Esecuzione_: Esercizio dinamico che comporta il passare in maniera alternata dalla posizione del cobra a quella accosciata. +
     _Effetti_: Rinforza Core e Spalle.
+    
 
 	
 [[pull_up]]
@@ -274,8 +309,8 @@
     
 [[run_in_place]]
 ((run in place)):: 
-    image:figures/exercises/run_in_place.svg[role=right, align=right,  pdfwidth=5cm] +
-    _Sinomimi_: ((corsa sul posto)), ((high knees running)). +
+    image:figures/exercises/high_knees.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((corsa sul posto)). +
     _Esecuzione_: Eseguire una corsa sul posto. +
     _Effetti_: Resistenza.
 
@@ -296,6 +331,16 @@
     _Sinomimi_: ((addominale da steso a seduto)). + 
     _Esecuzione_: Si parte dalla posizione base dell'addominale con le braccia alzate e gambe stese (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta. +
     _Effetti_: 6 pack.
+
+
+[[squat_and_press_with_dumbbells]]
+((squat_and_press_with_dumbbells)):: 
+    image:figures/exercises/squat_and_press_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((squat_and_press_with_dumbbells)), + 
+    _Esecuzione_: Eseguire un squat_and_press_with_dumbbells. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
 
 
 [[switch]]
@@ -337,6 +382,23 @@
     _Esecuzione_: fare i tricipiti appoggiandosi ad una sedia. +
     _Effetti_: Rinforza i tricipiti.
 
+[[triceps_press]]
+((triceps_press)):: 
+    image:figures/exercises/triceps_press.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((triceps_press)), + 
+    _Esecuzione_: Eseguire un triceps_press. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
+
+[[tuck_jump]]
+((tuck jump)):: 
+    image:figures/exercises/tuck_jump.svg[role=right, align=right,  pdfwidth=5cm] +
+    _Sinomimi_: ((tuck jump)), + 
+    _Esecuzione_: Eseguire un tuck jump. +
+    _Strumenti_ : nessuno
+    _Effetti_: fa bene.
+
 
 [[wall_sit]]
 ((wall sit)):: 
@@ -355,8 +417,9 @@ Mancano ToDo
 AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
+
 .modello esercizio
-[[high_knees]]
+[[nome]]
 ((nome)):: 
     image:figures/exercises/nome.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((nome)), + 
