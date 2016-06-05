@@ -84,7 +84,7 @@
 
 [[crunch]]
 ((crunch)):: 
-    image:figures/crunch.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/crunch.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((addominali)). + 
     _Esecuzione_: Da supini flettere leggermente le gambe, portare le mani dietro la nuca e contrarre gli addominali,     senza che le mani spingano sulla testa. +
     _Effetti_: 6 pack.
@@ -92,7 +92,7 @@
     
 [[crunch_with_weight]]
 ((crunch with weight)):: 
-    image:figures/crunch_with_weight.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/crunch_with_weight.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((addominali con peso)). + 
     _Esecuzione_: Da supini flettere leggermente le gambe, stendersi supini ocn il peso afferrato con entrambe le mani allineato alla testa, sollevare il peso ed alzarsi. +
     _Effetti_: 6 pack.
@@ -144,7 +144,7 @@
 
 [[front_squat]]
 ((front squat)):: 
-    image:figures/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/front_squat.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((accosciata con il bilancere appoggiato al petto)), + 
     _Esecuzione_: Accosciata con il bilanciere appoggiato al petto. +
     _Effetti_: Effetti dell'asana.
@@ -184,7 +184,7 @@
 
 [[lunge]]
 ((lunge)):: 
-    image:figures/lunge.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/lunge.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((affondo)). +
     _Esecuzione_: Eseguire un affondo. +
     _Effetti_: Effetti dell'esercizio.
@@ -201,7 +201,7 @@
 
 [[plank]]
 ((plank))::
-    image:figures/plank.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/plank.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
     _Esecuzione_: Posizione della <<push_up, flessione>> con le braccia tese. +
     _Strumenti_ : nessuno
@@ -219,7 +219,7 @@
     
 [[plank_to_teaser]]
 ((plank to teaser)):: 
-    image:figures/plank_to_teaser.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/plank_to_teaser.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
     _Esecuzione_: Esercizio dinamico che si fa passando dalla posizione di <<plank, plank sui gomiti>> a quella di <<teaser, posizione a V>> +
     _Strumenti_ : nessuno
@@ -283,18 +283,19 @@
 
 [[renegade]]
 ((renegade))::
-    image:figures/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/renegade.svg[role=right, align=right,  pdfwidth=5cm] +
 	_Sinonimi_: ((remata in plank)) +
     _Esecuzione_: <<plank, plank>> remando con due pesi +
+    _Strumenti_ : dumbbells
     _Effetti_: Muscoli.
 
 
 [[reverse_crunch]]
 ((reverse crunch)):: 
-    image:figures/exercises/reverse_crunch.png[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/reverse_crunch.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((addominale inverso)). +
     _Esecuzione_: Eseguire un addominale inverso. +
-    _Effetti_: Resistenza, core.
+    _Effetti_: Resistenza, core. 
 
 
 ((rollata))::
@@ -327,18 +328,18 @@
 
 [[sit_up]]
 ((sit up)):: 
-    image:figures/sit_up.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/sit_up.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((addominale da steso a seduto)). + 
     _Esecuzione_: Si parte dalla posizione base dell'addominale con le braccia alzate e gambe stese (parallele al terreno) e si esegue raccogliendo le gambe e le braccia, portandosi in posizione seduta. +
     _Effetti_: 6 pack.
 
 
 [[squat_and_press_with_dumbbells]]
-((squat_and_press_with_dumbbells)):: 
+((squat and press with dumbbells)):: 
     image:figures/exercises/squat_and_press_with_dumbbells.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((squat_and_press_with_dumbbells)), + 
     _Esecuzione_: Eseguire un squat_and_press_with_dumbbells. +
-    _Strumenti_ : nessuno
+    _Strumenti_ : dumbbells
     _Effetti_: fa bene.
 
 
@@ -353,33 +354,36 @@
 
 [[step_up_onto_chair]]
 ((step up onto chair)):: 
-    image:figures/step_up_onto_chair.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/step_up_onto_chair.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((salita e discesa da una sedia)). +
     _Esecuzione_: salire e scendere da una sedia. +
+    _Strumenti_ : sedia  +
     _Effetti_: Effetti dell'esercizio.
 
 
 [[superman]]
 ((superman)):: 
-    image:figures/superman.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/superman.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione di superman)). +
     _Esecuzione_: Da stesi pancia in giù, contrarre braccia e gambe per ottenere la posizione tipica di superman.  +
+    _Strumenti_ : nessuno  +
     _Effetti_: Rinforza core e dorsali.
 
 
 
 [[teaser]]
 ((teaser)):: 
-    image:figures/teaser.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/teaser.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((posizione a V)). +
     _Esecuzione_: da seduti, rimanere in equilibrio sul sedere tenendo la posine a 'V'. +
     _Effetti_: Effetti dell'esercizio.
 
 [[triceps_dip_on_chair]]
 ((triceps dip on chair)):: 
-    image:figures/triceps_dip_on_chair.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/triceps_dip_on_chair.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((flessioni sui tricipiti con una sedia)). +
     _Esecuzione_: fare i tricipiti appoggiandosi ad una sedia. +
+    _Strumenti_ : sedia +
     _Effetti_: Rinforza i tricipiti.
 
 [[triceps_press]]
@@ -387,7 +391,7 @@
     image:figures/exercises/triceps_press.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((triceps_press)), + 
     _Esecuzione_: Eseguire un triceps_press. +
-    _Strumenti_ : nessuno
+    _Strumenti_ : nessuno +
     _Effetti_: fa bene.
 
 
@@ -396,15 +400,16 @@
     image:figures/exercises/tuck_jump.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((tuck jump)), + 
     _Esecuzione_: Eseguire un tuck jump. +
-    _Strumenti_ : nessuno
+    _Strumenti_ : nessuno +
     _Effetti_: fa bene.
 
 
 [[wall_sit]]
 ((wall sit)):: 
-    image:figures/wall_sit.svg[role=right, align=right,  pdfwidth=5cm] +
+    image:figures/exercises/wall_sit.svg[role=right, align=right,  pdfwidth=5cm] +
     _Sinomimi_: ((seduta con schiena al muro)) + 
     _Esecuzione_: schiena appoggiata al muro, femori paralleli al terreno. +
+    _Strumenti_ : muro +
     _Effetti_: benefici quadricipiti.
 
     
