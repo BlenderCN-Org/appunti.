@@ -27,10 +27,9 @@ def create_scene(name="Scena_A"):
 
 
     
-def put_images_on_sequencer(images, folder, secs):
+def put_images_on_sequencer(images, folder, secs, fps=24):
     bpy.context.area.type = 'SEQUENCE_EDITOR'
     start= 1
-    fps=24
     for i in range(len(images)):
         stop= start + (fps*secs[i]) # - fps #-fps is to generate overlaps
         print(images[i])
@@ -41,14 +40,13 @@ def put_images_on_sequencer(images, folder, secs):
         start = stop + 1 #- fps
     
 
-def put_sounds_on_sequencer(sounds, folder, secs):
+def put_sounds_on_sequencer(sounds, folder, secs, fps=24):
     try:
         start= 1
         bpy.ops.sequencer.sound_strip_add(filepath=folder, 
                                           files=[{"name":sounds[-1]}], 
                                           relative_path=True, frame_start=start, channel=4)
         # ToDo bpy.ops.sequencer.cut(frame=47474, type='SOFT', side='RIGHT')
-        fps=24
         for i in range(len(secs)):
             start += (fps*secs[i]) + 1
             bpy.ops.sequencer.sound_strip_add(filepath=folder, 
@@ -73,7 +71,7 @@ def put_texts_on_sequencer(texts, secs):
 
 def set_movie_setting(filename = '/tmp/video_99.avi'):
     bpy.ops.sequencer.select(extend=False, linked_handle=False, left_right='NONE', linked_time=False)
-    bpy.context.scene.render.filepath = "/tmp/video_04.avi"
+    bpy.context.scene.render.filepath = "/home/maurizio/Videos/test.avi"
     bpy.context.scene.file_format = 'XVID'
     bpy.context.scene.format = 'XVID'
     bpy.context.scene.audio_codec = 'AAC'
@@ -82,6 +80,25 @@ def set_movie_setting(filename = '/tmp/video_99.avi'):
     bpy.context.scene.use_audio_scrub = True
     bpy.context.scene.use_audio_sync = True
     bpy.context.scene.use_frame_drop = True
+    bpy.context.scene.render.resolution_x = 1280
+    bpy.context.scene.render.resolution_y = 720
+    bpy.context.scene.render.resolution_percentage = 100
+    bpy.context.scene.render.pixel_aspect_x = 1
+    bpy.context.scene.render.pixel_aspect_y = 1
+    bpy.context.scene.render.fps = 2
+    bpy.context.scene.render.fps_base = 1
+    bpy.context.scene.render.use_antialiasing = False
+    bpy.context.scene.render.use_textures = False
+    bpy.context.scene.render.use_shadows = False
+    bpy.context.scene.render.use_sss = False
+    bpy.context.scene.render.use_envmaps = False
+    bpy.context.scene.render.use_raytrace = False
+    bpy.context.scene.render.filepath = "/home/maurizio/Videos/yoga_4.avi"
+    bpy.context.scene.render.image_settings.file_format = 'H264'
+    #bpy.context.scene.file_format = 'XVID'
+    bpy.context.scene.render.image_settings.color_mode = 'RGB'
+    bpy.context.scene.render.ffmpeg.audio_codec = 'MP3'
+    bpy.context.scene.render.ffmpeg.audio_bitrate = 192
     
     
 

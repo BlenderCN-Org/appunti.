@@ -127,7 +127,7 @@ Editare il file di configurazione e montare il tutto
     sudo mkdir /media/DRIVE_NAME_*
     sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda5 /media/sambashare/
 
-=== SSH
+=== ((SSH))
 
 .((Lanciare un comando e uscire senza interroperlo))
 ---------
@@ -220,6 +220,13 @@ Al termine dell’installazione apri Qsynth dal menù Applicazioni -> Audio e Vi
 Dall’interfaccia del programma seleziona il pulsante Setup e nella scheda Soundfonts fai click su Open per selezionare il file dei fonts in /usr/share/sounds/sf2/FluidR3_GM.sf2 (quello predefinito che viene visualizzato) e conferma il restart del motore.
 
     sudo apt-get install timidity timidity-interfaces-extra
+
+===  ((mkvmerge))
+
+Per incorporare file srt in file matrioska
+
+    apt-get install mkvtoolnix
+    mkvmerge -o output.mkv video.mp4 subtitles.srt
     
 === ((Loopback Suono Linux))
 
