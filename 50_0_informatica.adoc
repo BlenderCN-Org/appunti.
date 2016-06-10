@@ -235,6 +235,10 @@ Scalare gli svg
     convert +antialias -density 1000 nomefile.svg -resize 1920x1080 -background white -gravity center -extent 1920x1080 nomefile.jpg
 
 
+in batch
+   
+   mogrify -resize 300x200 -gravity center -extent 300x200
+
 ==== ((Inkscape))
 
 .Scorciatoie

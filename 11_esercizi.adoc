@@ -433,45 +433,6 @@ AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip t
     _Effetti_: fa bene.
 
 
-.Esercizi aggiuntivi:
-|===
-| Corsa sul posto | Lunge
-| Mountain Climber 
-| Side Plank
-| Step up into a chair
-| Triceps dips on chair
-| Wallsit
-|===
-
-
-.Push Ups
-|===
-| Push UPs 
-| Around the Clock push up 
-| Handstand push up
-|===
-
-
-
-[[bilancere]]
-.((bilanciere))
-|===
-| Clean
-| Front Squat
-| Hindu Push ups
-|===
-
-[[kettlebell]]
-.((kettlebell))
-|===
-| Renegade
-|===
-
-.((manubri))
-|===
-| Renegade
-|===
-
 
 === Sequenze
 
@@ -480,14 +441,15 @@ AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip t
     Durata: 30'
     Necessari: barra, corda, dumbbell x 2 
 
-    AMRAP(push ups x 20, dips X 10, pullups x 5, single up x 50)
-    1 minute stop
-    AMRAP(double dumbbell x 10, burpees with dumbbell x 10, burpees, x 10)
-    1 minute stop
-    AMRAP(high knees x 10, mountain climber x 10, jumping jack x 10, tuck jumps x 10)
-    1 minute stop
+    PAUSE 30
+    AMRAP 300(push ups x 20, dips X 10, pullups x 5, single up x 50)
+    PAUSE 60
+    AMRAP 300(double dumbbell x 10, burpees with dumbbell x 10, burpees, x 10)
+    PAUSE 60
+    AMRAP 300(high knees x 10, mountain climber x 10, jumping jack x 10, tuck jumps x 10)
+    PAUSE 60
     AMRAP(prisoner squat x 10, squat and press with dumbbells x 10, triceps press x 10, dumbbel front raise x 10, dumbbell buceps curl x 10)
-    1 minute stop
-    AMRAP(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
+    PAUSE 60
+    AMRAP 300(spideman plank x 20, abdominal sping up x 10, bycicle crunches x 10, hip thrust x 10, side plank thrusts x 10)
 
 
