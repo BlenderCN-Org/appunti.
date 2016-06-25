@@ -239,6 +239,11 @@ in batch
    
    mogrify -resize 300x200 -gravity center -extent 300x200
 
+creare un mosaico d'immagini
+
+    montage -mode concatenate -tile 8x9 *.png out.png
+
+
 ==== ((Inkscape))
 
 .Scorciatoie

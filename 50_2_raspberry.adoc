@@ -1,4 +1,6 @@
 
+:toc: merge
+
 == Raspberry 
 
 === Configurazione Fisica
@@ -21,26 +23,40 @@ da provare !libexif12 libid3tag0 libjpeg8
     sudo reboot
 
 === Sequenza installazione SDcard da linux footnote:[fonte: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md]
-------
-    comando per vedere i devices
-df -h
-    risultato
-/dev/sdb1       256M  108M  149M  43% /media/maurizio/F909-367C
-/dev/sdb2        15G   26M   15G   1% /media/maurizio/b4732aaf-665c-491f-97c7-8bd3be56a476
-    smonto l'sdcard
-umount /dev/sdb1
-umount /dev/sdb2
-    installo l'immagine
-sudo dd bs=4M if=2015-11-21-raspbian-jessie.img of=/dev/sdd 
-    assicuriamoci che non ci siano scritture ancora in atto
-sync
-    ora possiamo smontare la sdcard e partire.
-------
 
-Instead of dd you can use dcfldd; it will give a progress report about how much has been written.
+comando per vedere i devices
+
+    df -h
+    
+risultato
+
+    /dev/sdb1       256M  108M  149M  43% /media/maurizio/F909-367C
+    /dev/sdb2        15G   26M   15G   1% /media/maurizio/b4732aaf-665c-491f-97c7-8bd3be56a476
+    
+smonto l'sdcard
+
+    umount /dev/sdb1
+    umount /dev/sdb2
+    
+installo l'immagine (usare *dcfldd* per vedere il progresso)
+
+    sudo dd bs=4M if=2015-11-21-raspbian-jessie.img of=/dev/sdb 
+
+assicuriamoci che non ci siano scritture ancora in atto. Se non funziona prova 1M, prenderà di più
+
+    sync
+
+ora possiamo smontare la sdcard e partire.
+
+=== Per fare il backup
+
+    dd if=/dev/sdb of=sd.img bs=4M
+    sudo dd if=/dev/sdb of=~/Downloads/160726_backupPi.img bs=1M
+
+o 1M nel caso l'abbiate
 
 
-=== Passaggi prima installazione, DLNA, Torrent e Samba
+=== Prima installazione
 
 Una buona guida è qui http://raspberry.io/projects/view/naspberry-pi/
 
@@ -55,8 +71,7 @@ ssh pi@192.168.1.55
     cambio la password
 sudo passwd pi
     aggiorno il sw
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
     controllo lo spaziondisponibile su disco
 df
     se poco con il configuratore espando il filesystem e imposto il tipo di tastiera.
@@ -64,14 +79,107 @@ sudo raspi-config
 
 - installo avconv
 
-    sudo apt-get install libav-tools  
+    sudo apt-get install libav-tools ntfs-3g minidlna samba samba-common-bin
 
 - <<linux_usb_esterna, installo il disco esterno>>
 
-- <<dlna, installo dlna>>
+=== Monto HD esterno
 
-- <<samba, installo samba>>
 
+- installare NTFS
+
+    sudo apt-get install ntfs-3g
+    
+- lista device
+
+    ls -l /dev/disk/by-uuid
+    
+Risposta
+
+    lrwxrwxrwx 1 root root 15 giu 25 20:55 202638e1-4ce4-45df-9a00-ad725c2537bb -> ../../mmcblk0p2
+    lrwxrwxrwx 1 root root 15 giu 25 20:55 22E0-C711 -> ../../mmcblk0p1
+    lrwxrwxrwx 1 root root 10 giu 25 20:55 5292A96F92A9586D -> ../../sda1
+
+impostare la cartella
+
+    sudo mkdir /media/raspberry_ext_hd
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/raspberry_ext_hd
+    sudo nano /etc/fstab
+        proc              /proc           proc    defaults          0       0
+        /dev/mmcblk0p1    /boot           vfat    defaults          0       2
+        /dev/mmcblk0p2    /               ext4    defaults,noatime  0       1
+        /dev/sda1        /media/raspberry_ext_hd     ntfs-3g rw,defaults     0       0
+    sudo reboot
+
+.Montare temporaneamente USB drives footnote:[ntfs-3g for NTFS drives, vfat for FAT32 drives, ext4 for ext4 drives]
+
+    sudo mkdir /media/DRIVE_NAME_*
+    sudo mount -t ntfs-3g -o uid=pi,gid=pi /dev/sda1 /media/raspberry_ext_hd/
+
+
+=== Installazione DLNA
+
+    sudo apt-get install minidlna
+    sudo cp /etc/minidlna.conf /etc/backup_minidlna.conf
+    sudo nano /etc/minidlna.conf
+    
+In the configuration file, add
+
+    db_dir=/home/pi/minidlna
+    media_dir=/media/raspberry_ext_hd/dlna_dir/
+    log_dir=/var/log
+    
+Add as many media directories as you need. Change names of drives as needed.    
+
+    mkdir /var/cache/minidlna
+    sudo service minidlna force-reload
+    cat /var/log/minidlna.log
+
+Per testare i files:
+
+http://INDIRIZZO-IP-SERVER:8200
+
+
+=== Installazione Samba
+
+    sudo apt-get install samba samba-common-bin
+    sudo cp /etc/samba/smb.conf /etc/samba/backup_smb.conf
+    sudo nano /etc/samba/smb.conf
+
+Find workgroup, and modify its value. This is the workgroup your Windows machine need to be a part of to view the files. 
+
+    workgroup = WORKGROUP
+    netbios name = RaspBPi
+
+Remove irrelevant drives, printers if you don't need them
+    Add your own drive:
+
+    [raspberry_ext_hd]
+    comment = External Raspberry Drive
+    valid users = pi
+    path = /media/raspberry_ext_hd
+    create mask = 0777
+    directory mask = 0777
+    read only = No
+    
+read only option depends on whether you want your users to change files or not. In my case, I chose yes.
+
+Con il seguente comando abilito ad una PW samba un utente già nel sistema.
+
+    sudo smbpasswd -a marco
+
+Se voglio avviungere un utente samba:
+
+    sudo useradd -m -g users -p 123456789 marco
+    
+
+Non mi resta che riavviare il servizio
+
+    sudo service smbd restart
+    
+    
+
+    
 
 ==== Setup Wi-Fi On Your Raspberry Pi via the Command Line
 
