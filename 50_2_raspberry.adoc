@@ -3,18 +3,6 @@
 
 == Raspberry 
 
-=== Configurazione Fisica
-
-- MAC Addresses
-		B8:27:EB:BE:AD:1D -> RaspBerry Pi
-		00-0F-55-B1-1D-F5 ->RaspBerry Pi WiFi Dongle
-
-- IP addressed TPLink Nero
-192.168.1.55 RaspBerry Pi
-192.168.1.56    RaspBerry Pi WiFi Dongle
-
-.Note
-da provare !libexif12 libid3tag0 libjpeg8
 
 === Upgrade firmware
 
